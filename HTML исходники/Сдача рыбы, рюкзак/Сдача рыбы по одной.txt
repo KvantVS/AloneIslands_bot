@@ -1,0 +1,22 @@
+location='main.php?filter_f4=fish
+
+Navigate('location=''main.php?filter_f4=fish''')
+Navigate('javascript:location=''main.php?filter_f4=fish''')
+
+if (URL=sDomen + 'main.php?filter_f4=fish') then begin ...
+
+conf_sale('main.php?lavkasdat=7964688')
+
+1. Ищем show_w
+2. заносим от show_w до </SCRIPT> в s2
+3. проверяем название рыбы (на всякий случай, чтобы не попалась вещь вместо рыбы)
+4. ищем id (7-значный)
+5. подставляем и выполняем переход на страницу
+"javascript:conf_sale('main.php?lavkasdat=idididi')"
+
+if (LeftStr(URL,length(sDomen)+19) = sDomen+'main.php?lavkasdat='
+
+main.php?lavkasdat=
+
+sellingform('1234567','верхоплавка');
+от k+1 до k1-k-1

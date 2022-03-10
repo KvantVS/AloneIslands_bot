@@ -1,0 +1,93 @@
+  procedure Automove(x,y: integer);
+
+
+procedure AutoMove(x,y: integer);
+var
+  HTMLDoc: IHTMLDocument2;
+  Element: OleVariant;
+  ElementHTML: IHTMLElement;
+  s, s2, sMove:  string;
+  k,k2,k3: integer;
+  x1,y1,x2,y2,newx,newy:  integer;
+  aMap: array [-1..1,-1..1] of shortint;
+  i,j,ischetchik:  shortint;
+begin
+  HTMLDoc:=Form1.WB1.Document as IHTMLDocument2;
+  s:=htmldoc.frames.item(TargetFrameName).document.body.InnerHTML;
+  TargetFrameName:='main_top';
+  aMap[0,0]:=0;
+  ischetchik:=1;
+
+  // --- Поиск текущего местоположения -----------------------------------------
+  k:=pos('var aX = ',s);
+  s2:=ansiMidStr(s,k,length(s)-k);
+  k:=pos('=',s2);
+  Delete(s2,1,k);
+  trim(s2);
+  x1:=strtoint(s2);
+
+  k:=pos('var aY = ',s);
+  s2:=ansiMidStr(s,k,length(s)-k);
+  k:=pos('=',s2);
+  Delete(s2,1,k);
+  trim(s2);
+  y1:=strtoint(s2);
+
+  // --- ищем клетку [-1,-1] относительно текущей
+  newx:=-1;
+  newy:=-1;
+
+  for j := -1 to 1 do begin
+    for i := -1 to 1 do begin
+      if (j=0) and (i=0) then abort; ///
+      repeat
+        k:=pos('<TD>',s);
+        k2:=posEx('</TD>',s);
+        s2:=ansimidstr(s,k,k2-k);
+        delete(s,k,k2-k+5);
+
+        k:=pos('map/'+inttostr(x1+22+j)+'_'+inttostr(y1+26+i),s2);
+        IF k3<>0 then begin
+          If (pos('Перейти',s2)<>0) then aMap[-1,-1]:=1 else aMap[-1,-1]:=0;
+        end;
+      until k<>0;
+    end;
+  end;
+  {
+
+
+  Repeat
+    if x1<x2 then inc(x1) else dec(x1);
+    if y1<y2 then inc(y1) else dec(y1);
+    sMove:='go_nature(' + inttostr(x1) + ',' + inttostr(y1);
+
+    repeat
+      k:=pos('<TD>',s);
+      k2:=posEx('</TD>',s);
+      s2:=ansimidstr(s,k,k2-k);
+      delete(s,k,k2-k+5);
+      k:=pos('map/'+inttostr(x1+22)+'_'+inttostr(y1+26),s2);
+      if k<>0 then
+        if pos('Перейти',s2)=0 then inc
+
+ //     if k<>0 then Form1.WB1.Navigate('javascript',Flags,TargetFrameName);
+    until k<>0;
+  Until (x1=x2) and (y1=y2);
+  }
+
+
+
+  {  if pos('Ваше местоположение',s2)<>0 then begin
+
+  end;}
+{var aX = -6;
+var aY = 5;
+
+// go_nature(-7,5)
+{
+0. смотрим в HTML-тексте: от <TD> до </TD>
+1. Находим свое местоположение
+2. высчитываем начальные и конечные координаты (маршрут)
+3.
+}
+end;

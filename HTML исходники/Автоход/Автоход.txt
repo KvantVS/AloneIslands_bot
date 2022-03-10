@@ -1,0 +1,11 @@
+URL в WB1DocumentComplete
+'http://195.242.161.132/services/_nature.php?go_nature=1&gox=-5&goy=5&0.10710957040270569'
+при завершении хода персонажа
+services/_nature.php?go_nature'
+
+
+'http://195.242.161.132/services/_nature.php?go_nature=1&gox=-5&goy=5&0.02188198624693266'
+
+(AnsiLeftStr(URL,length(sDomen)+31)=sDomen+'services/_nature.php?go_nature')
+http://195.242.161.132/ --- 23 + 31 = 54
+services/_nature.php?go_nature = 30

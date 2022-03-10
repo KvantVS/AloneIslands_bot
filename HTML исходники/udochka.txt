@@ -1,0 +1,418 @@
+<CENTER class=return_win></FONT></CENTER>
+<DIV id=description style="DISPLAY: none; Z-INDEX: 65000; LEFT: 0px; WIDTH: 100px; POSITION: absolute; TOP: -100px; HEIGHT: 30px">&nbsp;</DIV>
+<DIV class=inv id=ec style="DISPLAY: none; Z-INDEX: 1; LEFT: -5px; WIDTH: 0px; POSITION: absolute; TOP: -5px; HEIGHT: 0px">&nbsp;</DIV>
+<DIV class=news id=news style="DISPLAY: block; Z-INDEX: 65535; LEFT: -500px; VISIBILITY: visible; WIDTH: 500px; POSITION: absolute; TOP: 100px; HEIGHT: 200px" bgcolor="#000000">
+<TABLE height=200 width=500 border=0>
+<TBODY>
+<TR>
+<TD class=newsm id=tipp vAlign=top align=middle height="80%">&nbsp;</TD>
+<TD style="CURSOR: pointer; COLOR: #ffffff" onclick=show_div() vAlign=top width=20>[X]</TD></TR>
+<TR>
+<TD id=setup>&nbsp;</TD></TR></TBODY></TABLE></DIV>
+<SCRIPT>var images='images';show_head('1','','onclick=\"top.goloc(\'\',\'fa9fdb18b9b629680bb6deff10b193b5\')\"',0,1,3);</SCRIPT>
+
+<TABLE height=58 cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/bg_top_up.gif border=0>
+<TBODY>
+<TR>
+<TD width="50%">
+<TABLE style="BACKGROUND-REPEAT: no-repeat" height="100%" cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/left_top_up2.gif border=0>
+<TBODY>
+<TR>
+<TD height=24>&nbsp;</TD>
+<TD height=24>&nbsp;</TD>
+<TD height=24>&nbsp;</TD></TR>
+<TR>
+<TD align=middle><INPUT class=head id=but1 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 70px; HEIGHT: 18px" onclick="location='main.php?go=pers'" onmouseout=fadeOpacity.back(this.id) type=button value=Персонаж></TD>
+<TD align=middle><INPUT class=head id=but2 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 110px; HEIGHT: 18px" disabled onclick="location='main.php?go=inv'" onmouseout=fadeOpacity.back(this.id) type=button value=Рюкзак></TD>
+<TD align=middle><INPUT class=head id=but4 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 110px; HEIGHT: 16px" disabled onclick="location='main.php?go=addon'" onmouseout=fadeOpacity.back(this.id) type=button value=Возможности></TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE height=58 cellSpacing=0 cellPadding=0 width=375 background=images/design/new/middle_top_up.gif border=0>
+<TBODY>
+<TR>
+<TD width=124>&nbsp;</TD>
+<TD width=118>&nbsp;</TD>
+<TD>&nbsp;</TD></TR>
+<TR>
+<TD vAlign=top align=right width=124 height=29><INPUT class=head id=but9 onmouseover="fadeOpacity(this.id, 'oR2')" style="FONT-SIZE: 11px; WIDTH: 68px; HEIGHT: 20px" onclick="location='main.php'" onmouseout=fadeOpacity.back(this.id) type=button value=Обновить></TD>
+<TD width=118 height=29>&nbsp;</TD>
+<TD vAlign=top height=29><INPUT class=head id=but8 onmouseover="fadeOpacity(this.id, 'oR2')" style="FONT-SIZE: 11px; WIDTH: 68px; HEIGHT: 20px" onclick=exit(); onmouseout=fadeOpacity.back(this.id) type=button value=Выход></TD></TR></TBODY></TABLE></TD>
+<TD width="50%" background=images/design/new/bg_top_up.gif>
+<TABLE style="BACKGROUND-POSITION: right center; BACKGROUND-REPEAT: no-repeat" height="100%" cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/right_top_up2.gif border=0>
+<TBODY>
+<TR>
+<TD height=23></TD>
+<TD height=23></TD>
+<TD height=23></TD></TR>
+<TR>
+<TD align=middle><INPUT class=head id=but3 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 110px; HEIGHT: 20px" disabled onclick="location='main.php?go=self'" onmouseout=fadeOpacity.back(this.id) type=button value=Личное></TD>
+<TD align=middle><INPUT class=head id=but7 style="WIDTH: 110px; HEIGHT: 16px" disabled onclick="top.goloc('','fa9fdb18b9b629680bb6deff10b193b5')" type=button></TD>
+<TD id=but5td align=middle><INPUT class=head id=but5 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 70px; HEIGHT: 20px" disabled onclick="location='main.php?go=back'" onmouseout=fadeOpacity.back(this.id) type=button value=Назад></TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><LINK href="ie.css" type=text/css rel=stylesheet><LINK href="ie6.css" type=text/css rel=stylesheet>
+<SCRIPT src="js/inv.js" type=text/javascript></SCRIPT>
+
+<DIV id=inf_from_php style="VISIBILITY: hidden; POSITION: absolute; TOP: 0px; HEIGHT: 0px"></DIV>
+<SCRIPT>var DecreaseDamage = 46;build_pers('12_24','6085106|<b><i>Шлем&nbsp;рассуждения</b></i>@<b>138 LN</b>@Класс брони: <B>+4</B>@Жизнь: <B>+10</B>@Долговечность:&nbsp;<B>100/100</B>@','w_kyl_1','6085505|<b><i>Всевидящий&nbsp;амулет</b></i>@<b>128 LN</b>@Долговечность:&nbsp;<B>90/90</B>@','218_436','5791935|<b><i>Нож&nbsp;достоинства</b></i>@<b>99 LN</b>@Жизнь: <B>+20</B>@Удар: <B>10-15</B>@Долговечность:&nbsp;<B>90/90</B>@','w_poy_7','6084772|<b><i>Золотой&nbsp;пояс</b></i>@<b>133 LN</b>@Класс брони: <B>+4</B>@Жизнь: <B>+15</B>@Долговечность:&nbsp;<B>90/90</B>@','slots/pob5','0','slots/pob6','0','slots/pob7','0','sapogigdkd','5919629|<b><i>Сапоги&nbsp;обезумевшего&nbsp;бойца</b></i>@<b>105 LN</b>@Класс брони: <B>+4</B>@Долговечность:&nbsp;<B>100/100</B>@','394_788','6084745|<b><i>Наручи&nbsp;пронзительного&nbsp;удара</b></i>@<b>118 LN</b>@Класс брони: <B>+3</B>@Удар: <B>1-3</B>@Долговечность:&nbsp;<B>100/100</B>@','343_686','6084785|<b><i>Перчатки&nbsp;неуловимого&nbsp;вора</b></i>@<b>121 LN</b>@Класс брони: <B>+4</B>@Долговечность:&nbsp;<B>90/90</B>@','slots/pob11','0','231_462','5922478|<b><i>Причудливое&nbsp;кольцо</b></i>@<b>98 LN</b>@Долговечность:&nbsp;<B>90/90</B>@','231_462','5922477|<b><i>Причудливое&nbsp;кольцо</b></i>@<b>98 LN</b>@Долговечность:&nbsp;<B>90/90</B>@','113_226','6085487|<b><i>Броня&nbsp;растворимости</b></i>@<b>106 LN</b>@Класс брони: <B>+7</B>@Жизнь: <B>+25</B>@Долговечность:&nbsp;<B>80/80</B>@','male_10',0,'c18','Kvant','14','195','195','9','9',0,'hp_5000','hp_5000','slots/pob17','slots/pob18','6132087|<b><i>Фляга&nbsp;восстановления&nbsp;100&nbsp;HP</b></i>@<b>37 LN</b>@Долговечность:&nbsp;<B>2/3</B>@','6132382|<b><i>Фляга&nbsp;восстановления&nbsp;100&nbsp;HP</b></i>@<b>37 LN</b>@Долговечность:&nbsp;<B>2/3</B>@','0','0',195,195,9,9,700,2000,25,41,14,25,1,1,38,143.89,2.00,50,20,82,77,-17,18,12,19,69.42,'Граф',589,121,998822,8710,492468,8,1,'0',100,'+11','+20','+5','0','0','0');
+</SCRIPT>
+
+<TABLE style="BORDER-TOP-WIDTH: 4px; BORDER-LEFT-WIDTH: 4px; BORDER-LEFT-COLOR: #e0e0e0; BORDER-TOP-COLOR: #e0e0e0; BORDER-BOTTOM: #e0e0e0 4px solid; BORDER-RIGHT-WIDTH: 4px; BORDER-RIGHT-COLOR: #e0e0e0" cellSpacing=0 borderColorDark=#ffffff cellPadding=0 width="100%" borderColorLight=#eeeeee border=1>
+<TBODY>
+<TR>
+<TD class=inv vAlign=top width=200>
+<CENTER class=but>Деньги<BR><A class=bold href="javascript:peredatm()">143.89 LN</A><BR><A class=bold href="main.php?go=pers&amp;gopers=service">2 y.e.</A></CENTER>
+<CENTER class=but>
+<TABLE class=LinedTable cellSpacing=0 width="90%" border=0 cellspadding="0">
+<TBODY>
+<TR>
+<TD class=stats width="50%">Сила:</TD>
+<TD>
+<DIV id=sila>25<A class=timef onclick=stups(1)>+</A><A class=timef onclick=stups(-1)>-</A></DIV></TD></TR>
+<TR>
+<TD class=stats width="50%">Реакция:</TD>
+<TD>
+<DIV id=lovk>41<A class=timef onclick=stupl(1)>+</A><A class=timef onclick=stupl(-1)>-</A></DIV></TD></TR>
+<TR>
+<TD class=stats width="50%">Удача:</TD>
+<TD>
+<DIV id=udacha>14<A class=timef onclick=stupu(1)>+</A><A class=timef onclick=stupu(-1)>-</A></DIV></TD></TR>
+<TR>
+<TD class=stats width="50%">Здоровье:</TD>
+<TD>
+<DIV id=zdorov>25<A class=timef onclick=stupzd(1)>+</A><A class=timef onclick=stupzd(-1)>-</A></DIV></TD></TR>
+<TR>
+<TD class=stats width="50%">Интеллект:</TD>
+<TD>
+<DIV id=znanya>1<A class=timef onclick=stupzn(1)>+</A><A class=timef onclick=stupzn(-1)>-</A></DIV></TD></TR>
+<TR>
+<TD class=stats width="50%">Сила&nbsp;Воли:</TD>
+<TD>
+<DIV id=power>1<A class=timef onclick=stupp(1)>+</A><A class=timef onclick=stupp(-1)>-</A></DIV></TD></TR>
+<TR>
+<TD class=inv align=middle colSpan=6>
+<DIV class=timef id=ups><IMG src="http://www.aloneislands.ru/images/design/warningblue.gif">Повышений: 38</DIV></TD></TR></TBODY></TABLE></CENTER>
+<DIV id=SAVEstats align=center bgcolor="#F5F5F5"><A class=bga onclick=save() href="javascript:void(0)">Сохранить</A></DIV>
+<CENTER class=inv_but>
+<TABLE cellSpacing=0 width="90%" border=0>
+<TBODY>
+<TR>
+<TD class=mf>Класс&nbsp;Брони:</TD>
+<TD class=green align=middle width="90%">50</TD></TR>
+<TR>
+<TD class=mf>Удар:</TD>
+<TD class=mfb width="90%">12-19</TD></TR>
+<TR>
+<TD class=mf>Сокрушение:</TD>
+<TD class=mfb width="90%">20%</TD></TR>
+<TR>
+<TD class=mf>Уловка:</TD>
+<TD class=mfb width="90%">82%</TD></TR>
+<TR>
+<TD class=mf>Точность:</TD>
+<TD class=mfb width="90%">77%</TD></TR>
+<TR>
+<TD class=mf>Стойкость:</TD>
+<TD class=mfb width="90%">-17%</TD></TR>
+<TR>
+<TD class=mf>Ярость:</TD>
+<TD class=mfb width="90%">18%</TD></TR>
+<TR>
+<TD class=mf>Ранк:</FONT></TD>
+<TD class=mfb width="90%">69.42</TD></TR>
+<TR>
+<TD><FONT class=mf>Звание:</FONT></TD>
+<TD class=mf align=middle>Граф</TD></TR></TBODY></TABLE></CENTER>
+<CENTER class=but><FONT class=ma>Линия Опыта [100%]</FONT></CENTER>
+<CENTER class=but>
+<TABLE cellSpacing=0 cellPadding=0 width="90%" border=0>
+<TBODY>
+<TR>
+<TD align=middle><IMG height=9 src="images/ma.png" width=-3%><IMG height=9 src="images/no.png" width="97%"></TD></TR></TBODY></TABLE></CENTER>
+<CENTER class=but>
+<TABLE cellSpacing=0 width="90%" border=0 cellspadding="0">
+<TBODY>
+<TR>
+<TD class=exp>Побед:</TD>
+<TD class=exp><B>589</B></TD></TR>
+<TR>
+<TD class=exp>Поражений:</TD>
+<TD class=exp><B>121</B>
+<TR>
+<TD></TD></TR>
+<TR>
+<TD class=exp><FONT color=#800000>Боевой опыт:</FONT></TD>
+<TD class=exp><FONT color=#800000><B>998822</B></FONT></TD></TR>
+<TR>
+<TD class=exp><FONT color=#334bbb>Мирный опыт:</FONT></TD>
+<TD class=exp><FONT color=#004bbb><B>8710</B></FONT></TD></TR>
+<TR>
+<TD class=exp><FONT color=#0a8900>До уровня:</FONT></TD>
+<TD class=exp><FONT color=#0a8900><B>492468</B></FONT></TD></TR></TBODY></TABLE></CENTER></TD>
+<TD class=inv vAlign=top align=middle width=250 rowSpan=2>
+<TABLE style="WIDTH: 100%" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="images/left_top.png" width=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/top.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="images/right_top.png" width=18></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(images/left.png); WIDTH: 18px">&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(images/bg.png)">
+<TABLE cellSpacing=2 cellPadding=2 width=220 border=0>
+<TBODY>
+<TR>
+<TD align=middle>
+<TABLE cellSpacing=0 cellPadding=0 width=230 border=0>
+<TBODY>
+<TR>
+<TD width=26><IMG src="images/design/hot/hp_left.gif" border=0></TD>
+<TD align=middle>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD id=hptitle title="1 здоровья за 4 сек." colSpan=2><IMG height=8 src="../images/design/new/hp.gif" width=186 border=0 name=hp><IMG height=8 src="../images/no.png" width=0 border=0 name=no_hp></TD></TR>
+<TR class=login>
+<TD class=hp id=chp>195/195</TD>
+<TD class=ma id=cma align=right>9/9</TD></TR>
+<TR>
+<TD id=matitle title="1 маны за 222 сек." colSpan=2><IMG height=8 src="images/design/new/ma.gif" width=186 border=0 name=ma><IMG height=8 src="images/no.png" width=0 border=0 name=no_ma></TD></TR></TBODY></TABLE></TD>
+<TD align=left width=26><IMG src="images/design/hot/hp_right.gif" border=0></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=table_solid align=middle width="100%"><IMG title=Приват style="CURSOR: pointer" onclick="top.say_private('Kvant',1)" height=16 src="images/pr.gif"> <IMG src="/images/signs/c18.gif"><FONT class=user>Kvant</FONT>[<FONT class=lvl>14</FONT>] &nbsp; <FONT class=green title=Усталость>0%</FONT></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width=220 border=0>
+<TBODY>
+<TR>
+<TD vAlign=bottom width=30 height=272></TD>
+<TD align=middle width=220>
+<TABLE cellSpacing=0 cellPadding=0 width=220 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top width=62><IMG height=20 src="images/weapons/slots/slot1.gif" width=62><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'6084745|<b><i>Наручи&nbsp;пронзительного&nbsp;удара</b></i>@<b>118 LN</b>@Класс брони: <B>+3</B>@Удар: <B>1-3</B>@Долговечность:&nbsp;<B>100/100</B>@')" style="CURSOR: pointer" onclick='location="main.php?sn=6084745"' onmouseout=h_des() height=40 src="images/weapons/394_788.gif" width=62><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'6084785|<b><i>Перчатки&nbsp;неуловимого&nbsp;вора</b></i>@<b>121 LN</b>@Класс брони: <B>+4</B>@Долговечность:&nbsp;<B>90/90</B>@')" style="CURSOR: pointer" onclick='location="main.php?sn=6084785"' onmouseout=h_des() height=40 src="images/weapons/343_686.gif" width=62><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'5791935|<b><i>Нож&nbsp;достоинства</b></i>@<b>99 LN</b>@Жизнь: <B>+20</B>@Удар: <B>10-15</B>@Долговечность:&nbsp;<B>90/90</B>@')" style="CURSOR: pointer" onclick='location="main.php?sn=5791935"' onmouseout=h_des() height=91 src="images/weapons/218_436.gif" width=62><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'6085487|<b><i>Броня&nbsp;растворимости</b></i>@<b>106 LN</b>@Класс брони: <B>+7</B>@Жизнь: <B>+25</B>@Долговечность:&nbsp;<B>80/80</B>@')" style="CURSOR: pointer" onclick='location="main.php?sn=6085487"' onmouseout=h_des() height=90 src="images/weapons/113_226.gif" width=62></TD>
+<TD align=middle width=115><IMG title=Kvant src="images/persons/male_10.gif" width=115></TD>
+<TD vAlign=top align=right width=62><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'6085106|<b><i>Шлем&nbsp;рассуждения</b></i>@<b>138 LN</b>@Класс брони: <B>+4</B>@Жизнь: <B>+10</B>@Долговечность:&nbsp;<B>100/100</B>@')" style="CURSOR: pointer" onclick='location="main.php?sn=6085106"' onmouseout=h_des() height=65 src="images/weapons/12_24.gif" width=62><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'6085505|<b><i>Всевидящий&nbsp;амулет</b></i>@<b>128 LN</b>@Долговечность:&nbsp;<B>90/90</B>@')" style="CURSOR: pointer" onclick='location="main.php?sn=6085505"' onmouseout=h_des() height=35 src="images/weapons/w_kyl_1.gif" width=62><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'0')" onmouseout=h_des() height=91 src="images/weapons/slots/pob11.gif" width=62 undefined><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'6084772|<b><i>Золотой&nbsp;пояс</b></i>@<b>133 LN</b>@Класс брони: <B>+4</B>@Жизнь: <B>+15</B>@Долговечность:&nbsp;<B>90/90</B>@')" style="CURSOR: pointer" onclick='location="main.php?sn=6084772"' onmouseout=h_des() height=30 src="images/weapons/w_poy_7.gif" width=62><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'5919629|<b><i>Сапоги&nbsp;обезумевшего&nbsp;бойца</b></i>@<b>105 LN</b>@Класс брони: <B>+4</B>@Долговечность:&nbsp;<B>100/100</B>@')" style="CURSOR: pointer" onclick='location="main.php?sn=5919629"' onmouseout=h_des() height=60 src="images/weapons/sapogigdkd.gif" width=62></TD></TR>
+<TR>
+<TD align=left width="100%"><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'6132087|<b><i>Фляга&nbsp;восстановления&nbsp;100&nbsp;HP</b></i>@<b>37 LN</b>@Долговечность:&nbsp;<B>2/3</B>@')" style="CURSOR: pointer" onclick='location="main.php?sn=6132087"' onmouseout=h_des() height=31 src="images/weapons/hp_5000.gif" width=31><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'6132382|<b><i>Фляга&nbsp;восстановления&nbsp;100&nbsp;HP</b></i>@<b>37 LN</b>@Долговечность:&nbsp;<B>2/3</B>@')" style="CURSOR: pointer" onclick='location="main.php?sn=6132382"' onmouseout=h_des() height=31 src="images/weapons/hp_5000.gif" width=31></TD>
+<TD align=middle><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'5922478|<b><i>Причудливое&nbsp;кольцо</b></i>@<b>98 LN</b>@Долговечность:&nbsp;<B>90/90</B>@')" style="CURSOR: pointer" onclick='location="main.php?sn=5922478"' onmouseout=h_des() height=31 src="images/weapons/231_462.gif" width=31><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'5922477|<b><i>Причудливое&nbsp;кольцо</b></i>@<b>98 LN</b>@Долговечность:&nbsp;<B>90/90</B>@')" style="CURSOR: pointer" onclick='location="main.php?sn=5922477"' onmouseout=h_des() height=31 src="images/weapons/231_462.gif" width=31></TD>
+<TD align=right><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'0')" onmouseout=h_des() height=31 src="images/weapons/slots/pob17.gif" width=31 undefined><IMG onmousemove=move_alt(event) onmouseover="s_des(event,'0')" onmouseout=h_des() height=31 src="images/weapons/slots/pob18.gif" width=31 undefined></TD>
+<TD vAlign=bottom align=right height=32></TD></TR></TBODY></TABLE></TD>
+<TD vAlign=bottom width=30 height=272></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD style="BACKGROUND-IMAGE: url(images/right.png); WIDTH: 18px">&nbsp;</TD></TR>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="images/left_bottom.png" width=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/bottom.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="images/right_bottom.png" width=18></TD></TR></TBODY></TABLE>
+<DIV class=aurasc id=aurasc></DIV></TD>
+<TD class=inv id=weapons vAlign=top align=left height="100%">
+<CENTER class=timef width=100%>Масса вещей: [862/260] из 96 ваших вещей. <FONT class=hp>Вы перегружены!</FONT> <BR><FONT class=items><A class=timef href="http://www.aloneislands.ru/main.php?snall=all">Снять всё</A> | <A class=timef href="http://www.aloneislands.ru/main.php?inv=weapons">Вещи</A> | <A class=timef href="http://www.aloneislands.ru/main.php?inv=presents">Подарки</A> | <A class=timef href="http://www.aloneislands.ru/main.php?inv=cat3">Комплекты</A> | <A class=timef href="http://www.aloneislands.ru/main.php?inv=cat4">Сборка предметов</A> <BR><A class=timef href="http://www.aloneislands.ru/main.php?filter_f5=price">Сортировать по цене</A> | <A class=timef href="http://www.aloneislands.ru/main.php?filter_f5=level">Сортировать по уровню</A>
+<SCRIPT>
+
+function ssubm()
+
+{
+
+	document.sort.submit();
+
+}
+
+</SCRIPT>
+ 
+<FORM name=sort method=get jQuery1234425363796="2"><SELECT class=items id=filter_f6 style="DISPLAY: none" onchange=ssubm() size=1 name=filter_f6> <OPTION value=1 selected>Группировать</OPTION> <OPTION value=2>Не группировать</OPTION></SELECT> <SELECT class=items id=filter_f4 style="DISPLAY: none" onchange=ssubm() size=1 name=filter_f4> <OPTION value=all>Все</OPTION> <OPTION value=shlem>Шлемы</OPTION> <OPTION value=ojerelie>Кулоны</OPTION> <OPTION value=orujie selected>Оружия</OPTION> <OPTION value=poyas>Пояса</OPTION> <OPTION value=zelie>Зелья/камни</OPTION> <OPTION value=sapogi>Сапоги</OPTION> <OPTION value=naruchi>Наручи</OPTION> <OPTION value=perchatki>Перчатки</OPTION> <OPTION value=kolco>Кольца</OPTION> <OPTION value=bronya>Брони</OPTION> <OPTION value=napad>Свитки нападения</OPTION> <OPTION value=zakl>Свитки заклинания</OPTION> <OPTION value=kam>Зелья восстановления</OPTION> <OPTION value=potion>Зелья алхимические</OPTION> <OPTION value=herbal>Растения</OPTION> <OPTION value=fishing>Рыболовные снасти</OPTION> <OPTION value=fish>Рыба</OPTION> <OPTION value=resources>Ресурсы</OPTION> <OPTION value=rune>Руны</OPTION> <OPTION value=teleport>Телепорт</OPTION></SELECT>
+<DIV class=jquery-selectbox id=filter_f6_div style="WIDTH: 180px"><INPUT id=filter_f6_values type=hidden value=1•2•><INPUT id=filter_f6_inners type=hidden value="Группировать•Не группировать•">
+<TABLE onclick="ch_SELECT('filter_f6')" cellSpacing=0 width="100%" border=0 cellspaddin="0">
+<TBODY>
+<TR>
+<TD align=middle><B>Группировать</B></TD>
+<TD width=16><A class=moreButton href="javascript:void(0)"></A></TD></TR></TBODY></TABLE>
+<DIV class=jquery-selectbox-list id=list_filter_f6 style="WIDTH: 180px"></DIV></DIV>
+<DIV class=jquery-selectbox id=filter_f4_div style="WIDTH: 240px"><INPUT id=filter_f4_values type=hidden value=all•shlem•ojerelie•orujie•poyas•zelie•sapogi•naruchi•perchatki•kolco•bronya•napad•zakl•kam•potion•herbal•fishing•fish•resources•rune•teleport•><INPUT id=filter_f4_inners type=hidden value="Все•Шлемы•Кулоны•Оружия•Пояса•Зелья/камни•Сапоги•Наручи•Перчатки•Кольца•Брони•Свитки нападения•Свитки заклинания•Зелья восстановления•Зелья алхимические•Растения•Рыболовные снасти•Рыба•Ресурсы•Руны•Телепорт•">
+<TABLE onclick="ch_SELECT('filter_f4')" cellSpacing=0 width="100%" border=0 cellspaddin="0">
+<TBODY>
+<TR>
+<TD align=middle><B>Оружия</B></TD>
+<TD width=16><A class=moreButton href="javascript:void(0)"></A></TD></TR></TBODY></TABLE>
+<DIV class=jquery-selectbox-list id=list_filter_f4 style="WIDTH: 240px"></DIV></DIV></FORM></CENTER>
+<CENTER>
+<TABLE cellSpacing=2 borderColorDark=#ffffff cellPadding=2 width="98%" borderColorLight=#c0c0c0 border=2>
+<TBODY>
+<TR>
+<TD class=weapons_box align=left>
+<SCRIPT>
+show_w ('Меч кровопролития','1','176_352','90','90','<font class=user><img src=images/money.gif> <b>116LN</font></b><font class=items><br>',116,'0','0','<table class=LinedTable style="border-width:0px; font-size:10px;width:100%" cellspacing=0><tr><td>Сила</td><td><b>+1 </b></td></tr><tr><td>Реакция</td><td><b>+4 </b></td></tr><tr><td>Сокрушение</td><td><b>+7 %</b></td></tr><tr><td>Уловка</td><td><b>+9 %</b></td></tr><tr><td>Точность</td><td><b>+9 %</b></td></tr><tr><td>Ярость</td><td><b>+7 %</b></td></tr><tr><td>Удар</td><td><b>17-23</b></td></tr></table>','<hr>Ранк: 14.46','','','',0,0,0,0,''
+,'0','14','','<font class=timef>Масса:<b>14</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 9</font></center><table class=LinedTable style="border-width:0px; font-size:10px;width:100%" cellspacing=0><tr><td>Сила</td><td class=green><b>20 </b></td></tr><tr><td>Реакция</td><td class=green><b>36 </b></td></tr><tr><td>Удача</td><td class=green><b>11 </b></td></tr><tr><td>Здоровье</td><td class=green><b>25 </b></td></tr><tr><td>Холодное оружие</td><td class=green><b>9 </b></td></tr></table>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=mfb align=middle width="50%" height=10><B>СВОЙСТВА</B></TD>
+<TD align=middle width="30%" height=10>&nbsp;</TD>
+<TD class=mfb align=middle width="20%" height=10><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR>
+<TD>
+<CENTER><FONT class=user><IMG src="http://www.aloneislands.ru/images/money.gif"> <B>116LN</FONT></B><FONT class=items><BR></CENTER>
+<TABLE class=LinedTable style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100%; BORDER-RIGHT-WIDTH: 0px" cellSpacing=0>
+<TBODY>
+<TR>
+<TD>Сила</TD>
+<TD><B>+1 </B></TD></TR>
+<TR>
+<TD>Реакция</TD>
+<TD><B>+4 </B></TD></TR>
+<TR>
+<TD>Сокрушение</TD>
+<TD><B>+7 %</B></TD></TR>
+<TR>
+<TD>Уловка</TD>
+<TD><B>+9 %</B></TD></TR>
+<TR>
+<TD>Точность</TD>
+<TD><B>+9 %</B></TD></TR>
+<TR>
+<TD>Ярость</TD>
+<TD><B>+7 %</B></TD></TR>
+<TR>
+<TD>Удар</TD>
+<TD><B>17-23</B></TD></TR></TBODY></TABLE><BR>
+<CENTER class=but>
+<HR>
+Ранк: 14.46</CENTER></FONT></TD>
+<TD style="BORDER-TOP-WIDTH: 1px; BORDER-RIGHT: silver 1px solid; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver" align=middle><FONT class=user><B>Меч кровопролития</B></FONT> </B>
+<HR>
+<IMG style="BORDER-RIGHT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-BOTTOM: #ffffff 2px outset" src="http://www.aloneislands.ru/images/weapons/176_352.gif"> 
+<DIV class=time id=176_352_90_116_></DIV><FONT class=time>[90/90]</FONT></TD>
+<TD><FONT class=timef>Масса:<B>14</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 9</FONT></CENTER>
+<TABLE class=LinedTable style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100%; BORDER-RIGHT-WIDTH: 0px" cellSpacing=0>
+<TBODY>
+<TR>
+<TD>Сила</TD>
+<TD class=green><B>20 </B></TD></TR>
+<TR>
+<TD>Реакция</TD>
+<TD class=green><B>36 </B></TD></TR>
+<TR>
+<TD>Удача</TD>
+<TD class=green><B>11 </B></TD></TR>
+<TR>
+<TD>Здоровье</TD>
+<TD class=green><B>25 </B></TD></TR>
+<TR>
+<TD>Холодное оружие</TD>
+<TD class=green><B>9 </B></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<TD><IMG title=Надеть style="CURSOR: pointer" onclick="location='main.php?wear=5803749'" src="http://www.aloneislands.ru/images/icons/upload.png"></TD>
+<TD><INPUT class=inv_but onclick="peredat('5803749','Меч кровопролития')" type=button value=Передать></TD>
+<TD><INPUT class=inv_but onclick="sellingform('5803749','Меч кровопролития')" type=button value=Продать></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=5803749')" type=button value="Сдать клану"></TD></TD>
+<TD align=right width="50%"><IMG title=Выкинуть style="CURSOR: pointer" onclick="conf('main.php?drop=5803749')" src="http://www.aloneislands.ru/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=weapons_box align=left>
+<SCRIPT>
+show_w ('Бамбуковая удочка новичка','1','fishing_noob','26','50','<font class=user><img src=images/money.gif> <b>20LN</font></b><font class=items><br>',20,'0','0','<table class=LinedTable style="border-width:0px; font-size:10px;width:100%" cellspacing=0><tr><td>Рыбак</td><td><b>+15 </b></td></tr></table>','Позволяет ловить рыбу','','','',0,0,0,0,''
+,'0','5','','<font class=timef>Масса:<b>5</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 5</font></center><table class=LinedTable style="border-width:0px; font-size:10px;width:100%" cellspacing=0><tr><td>Интеллект</td><td class=green><b>1 </b></td></tr><tr><td>Рыбак</td><td class=green><b>20 </b></td></tr></table>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=mfb align=middle width="50%" height=10><B>СВОЙСТВА</B></TD>
+<TD align=middle width="30%" height=10>&nbsp;</TD>
+<TD class=mfb align=middle width="20%" height=10><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR>
+<TD>
+<CENTER><FONT class=user><IMG src="http://www.aloneislands.ru/images/money.gif"> <B>20LN</FONT></B><FONT class=items><BR></CENTER>
+<TABLE class=LinedTable style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100%; BORDER-RIGHT-WIDTH: 0px" cellSpacing=0>
+<TBODY>
+<TR>
+<TD>Рыбак</TD>
+<TD><B>+15 </B></TD></TR></TBODY></TABLE><BR>
+<CENTER class=but>Позволяет ловить рыбу</CENTER></FONT></TD>
+<TD style="BORDER-TOP-WIDTH: 1px; BORDER-RIGHT: silver 1px solid; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver" align=middle><FONT class=user><B>Бамбуковая удочка новичка</B></FONT> </B>
+<HR>
+<IMG style="BORDER-RIGHT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-BOTTOM: #ffffff 2px outset" src="http://www.aloneislands.ru/images/weapons/fishing_noob.gif"> 
+<DIV class=time id=fishing_noob_26_20_></DIV><FONT class=time>[26/50]</FONT></TD>
+<TD><FONT class=timef>Масса:<B>5</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 5</FONT></CENTER>
+<TABLE class=LinedTable style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100%; BORDER-RIGHT-WIDTH: 0px" cellSpacing=0>
+<TBODY>
+<TR>
+<TD>Интеллект</TD>
+<TD class=green><B>1 </B></TD></TR>
+<TR>
+<TD>Рыбак</TD>
+<TD class=green><B>20 </B></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<TD><IMG title=Надеть style="CURSOR: pointer" onclick="location='main.php?wear=6134611'" src="http://www.aloneislands.ru/images/icons/upload.png"></TD>
+<TD><INPUT class=inv_but onclick="peredat('6134611','Бамбуковая удочка новичка')" type=button value=Передать></TD>
+<TD><INPUT class=inv_but onclick="sellingform('6134611','Бамбуковая удочка новичка')" type=button value=Продать></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=6134611')" type=button value="Сдать клану"></TD></TD>
+<TD align=right width="50%"><IMG title=Выкинуть style="CURSOR: pointer" onclick="conf('main.php?drop=6134611')" src="http://www.aloneislands.ru/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=weapons_box align=left>
+<SCRIPT>
+show_w ('Бамбуковая удочка новичка','1','fishing_noob','50','50','<font class=user><img src=images/money.gif> <b>20LN</font></b><font class=items><br>',20,'0','0','<table class=LinedTable style="border-width:0px; font-size:10px;width:100%" cellspacing=0><tr><td>Рыбак</td><td><b>+15 </b></td></tr></table>','Позволяет ловить рыбу','','','',0,0,0,0,''
+,'0','5','','<font class=timef>Масса:<b>5</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 5</font></center><table class=LinedTable style="border-width:0px; font-size:10px;width:100%" cellspacing=0><tr><td>Интеллект</td><td class=green><b>1 </b></td></tr><tr><td>Рыбак</td><td class=green><b>20 </b></td></tr></table>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD class=mfb align=middle width="50%" height=10><B>СВОЙСТВА</B></TD>
+<TD align=middle width="30%" height=10>&nbsp;</TD>
+<TD class=mfb align=middle width="20%" height=10><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR>
+<TD>
+<CENTER><FONT class=user><IMG src="http://www.aloneislands.ru/images/money.gif"> <B>20LN</FONT></B><FONT class=items><BR></CENTER>
+<TABLE class=LinedTable style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100%; BORDER-RIGHT-WIDTH: 0px" cellSpacing=0>
+<TBODY>
+<TR>
+<TD>Рыбак</TD>
+<TD><B>+15 </B></TD></TR></TBODY></TABLE><BR>
+<CENTER class=but>Позволяет ловить рыбу</CENTER></FONT></TD>
+<TD style="BORDER-TOP-WIDTH: 1px; BORDER-RIGHT: silver 1px solid; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver" align=middle><FONT class=user><B>Бамбуковая удочка новичка</B></FONT> </B>
+<HR>
+<IMG style="BORDER-RIGHT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-BOTTOM: #ffffff 2px outset" src="http://www.aloneislands.ru/images/weapons/fishing_noob.gif"> 
+<DIV class=time id=fishing_noob_50_20_></DIV><FONT class=time>[50/50]</FONT></TD>
+<TD><FONT class=timef>Масса:<B>5</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 5</FONT></CENTER>
+<TABLE class=LinedTable style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100%; BORDER-RIGHT-WIDTH: 0px" cellSpacing=0>
+<TBODY>
+<TR>
+<TD>Интеллект</TD>
+<TD class=green><B>1 </B></TD></TR>
+<TR>
+<TD>Рыбак</TD>
+<TD class=green><B>20 </B></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<TD><IMG title=Надеть style="CURSOR: pointer" onclick="location='main.php?wear=6134612'" src="http://www.aloneislands.ru/images/icons/upload.png"></TD>
+<TD><INPUT class=inv_but onclick="peredat('6134612','Бамбуковая удочка новичка')" type=button value=Передать></TD>
+<TD><INPUT class=inv_but onclick="sellingform('6134612','Бамбуковая удочка новичка')" type=button value=Продать></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=6134612')" type=button value="Сдать клану"></TD></TD>
+<TD align=right width="50%"><IMG title=Выкинуть style="CURSOR: pointer" onclick="conf('main.php?drop=6134612')" src="http://www.aloneislands.ru/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></CENTER></FONT></TD></TR></TBODY></TABLE>
+<SCRIPT>view_auras('');</SCRIPT>
+
+<SCRIPT src="js/c.js"></SCRIPT>
+
+<DIV align=right><A href="http://www.liveinternet.ru/click" target=_blank><IMG title="LiveInternet: показано число посетителей за сегодня" height=15 alt="" src="http://counter.yadro.ru/hit?t26.5;r;s1024*768*32;uhttp%3A//www.aloneislands.ru/main.php%3Fgo%3Dinv%26filter_f4%3Dorujie;0.16988010225614103" width=88></A><BR><A href="http://top.mail.ru/jump?from=1207359" target=_top><IMG height=18 alt=Рейтинг@Mail.ru src="http://dc.c6.b2.a1.top.list.ru/counter?id=1207359;t=109;js=13;j=true;s=1024*768;d=32;rand=0.7326606917696923" width=88></A></DIV>
+<SCRIPT src="js/tools/selectbox.js?3"></SCRIPT>
+
+<SCRIPT src="js/end.js?3"></SCRIPT>

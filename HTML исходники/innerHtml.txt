@@ -1,0 +1,15 @@
+<div id=outer style="visibility:hidden;">
+
+<center class=but2>Нет клёва.</center><center class=but2><b class=green>Вы поймали рыбу!</b><br><i class=timef> Средняя.</i><br> Ми...
+
+<center class=but2><b class=green>Вы поймали рыбу!</b><br><i class=timef> Гигантская.</i><br> Мирный опыт +5<hr><center class=weapons_box><script>
+show_w ('Тунец','','fish/24','1','1','<font class=user><img src=images/money.gif> <b>9.34LN</font></b><font class=items><br>',9.34,'0','0','','<br>Пропадёт через 4д&nbsp;0с','','','',0,0,0,0,''
+,'0','7','','<font class=timef>Масса: <b>7</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</script></center></center>
+
+<center class=but2><b class=green>Вы поймали рыбу!</b><br><i class=timef> Подросший малёк.</i><br> Мирный опыт +5<hr><center class=weapons_box><script>
+show_w ('Плотва','','fish/6','1','1','<font class=user><img src=images/money.gif> <b>4.24LN</font></b><font class=items><br>',4.24,'0','0','','<br>Пропадёт через 4д&nbsp;0с','','','',0,0,0,0,''
+,'0','2','','<font class=timef>Масса: <b>2</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</script></center></center>
+
+<center class=but2><b class=green>Вы поймали рыбу!</b><br><i class=timef> Большая.</i><br> Мирный опыт +5<hr><center class=weapons_box><script>
+show_w ('Плотва','','fish/6','1','1','<font class=user><img src=images/money.gif> <b>5.36LN</font></b><font class=items><br>',5.36,'0','0','','<br>Пропадёт через 4д&nbsp;0с','','','',0,0,0,0,''
+,'0','5','','<font class=timef>Масса: <b>5</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</script></center></center></div>

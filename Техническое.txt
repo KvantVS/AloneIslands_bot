@@ -1,0 +1,6 @@
+<div id=outer style="visibility:hidden;"><b class=green>Вы поймали рыбу!</b><br><i class=timef> Средняя.</i><br> Мирный опыт +5<hr><center class=weapons_box><script>
+show_w ('Краснопёрка','','fish/2','1','1','<font class=user><img src=images/money.gif> <b>4.12LN</font></b><font class=items><br>',4.12,'0','0','','<br>Пропадёт через 3д&nbsp;23ч&nbsp;59м&nbsp;59с','','','',0,0,0,0,''
+,'0','6','','<font class=timef>Масса:<b>6</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</script></center></div>
+
+
+Чтобы при одевании удочки - считывалась вся инфа игрока, с деньгами, опытом и т.д. и отправлялась на почту

@@ -1,0 +1,206 @@
+<CENTER class=return_win></FONT></CENTER>
+<DIV id=description style="DISPLAY: none; Z-INDEX: 2; LEFT: 0px; VISIBILITY: visible; WIDTH: 100px; POSITION: absolute; TOP: -100px; HEIGHT: 30px">&nbsp;</DIV>
+<DIV class=inv id=ec style="DISPLAY: none; Z-INDEX: 1; LEFT: -5px; VISIBILITY: visible; WIDTH: 0px; POSITION: absolute; TOP: -5px; HEIGHT: 0px">&nbsp;</DIV>
+<DIV class=news id=news style="DISPLAY: block; Z-INDEX: 65535; LEFT: -500px; VISIBILITY: visible; WIDTH: 500px; POSITION: absolute; TOP: 100px; HEIGHT: 200px" bgcolor="#000000">
+<TABLE height=200 width=500 border=0>
+<TBODY>
+<TR>
+<TD class=newsm id=tipp vAlign=top align=middle height="80%">&nbsp;</TD>
+<TD style="CURSOR: pointer; COLOR: #ffffff" onclick=show_div() vAlign=top width=20>[X]</TD></TR>
+<TR>
+<TD id=setup>&nbsp;</TD></TR></TBODY></TABLE></DIV>
+<SCRIPT>var images='images';show_head('2','','onclick=\"top.goloc(\'\',\'cf5b890162ae6f98b5594cc94d99143a\')\"',0,1,3);</SCRIPT>
+
+<TABLE height=58 cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/bg_top_up.gif border=0>
+<TBODY>
+<TR>
+<TD width="50%">
+<TABLE style="BACKGROUND-REPEAT: no-repeat" height="100%" cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/left_top_up2.gif border=0>
+<TBODY>
+<TR>
+<TD height=24>&nbsp;</TD>
+<TD height=24>&nbsp;</TD>
+<TD height=24>&nbsp;</TD></TR>
+<TR>
+<TD align=middle><INPUT class=head id=but1 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 70px; HEIGHT: 18px" onclick="location='main.php?go=pers'" onmouseout=fadeOpacity.back(this.id) type=button value=Персонаж></TD>
+<TD align=middle><INPUT class=head id=but2 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 110px; HEIGHT: 18px" onclick="location='main.php?go=inv'" onmouseout=fadeOpacity.back(this.id) type=button value=Рюкзак></TD>
+<TD align=middle><INPUT class=head id=but4 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 110px; HEIGHT: 16px" disabled onclick="location='main.php?go=addon'" onmouseout=fadeOpacity.back(this.id) type=button value=Возможности></TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE height=58 cellSpacing=0 cellPadding=0 width=375 background=images/design/new/middle_top_up.gif border=0>
+<TBODY>
+<TR>
+<TD width=124>&nbsp;</TD>
+<TD width=118>&nbsp;</TD>
+<TD>&nbsp;</TD></TR>
+<TR>
+<TD vAlign=top align=right width=124 height=29><INPUT class=head id=but9 onmouseover="fadeOpacity(this.id, 'oR2')" style="FONT-SIZE: 11px; WIDTH: 68px; HEIGHT: 20px" onclick="location='main.php'" onmouseout=fadeOpacity.back(this.id) type=button value=Обновить></TD>
+<TD width=118 height=29>&nbsp;</TD>
+<TD vAlign=top height=29><INPUT class=head id=but8 onmouseover="fadeOpacity(this.id, 'oR2')" style="FONT-SIZE: 11px; WIDTH: 68px; HEIGHT: 20px" onclick=exit(); onmouseout=fadeOpacity.back(this.id) type=button value=Выход></TD></TR></TBODY></TABLE></TD>
+<TD width="50%" background=images/design/new/bg_top_up.gif>
+<TABLE style="BACKGROUND-POSITION: right center; BACKGROUND-REPEAT: no-repeat" height="100%" cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/right_top_up2.gif border=0>
+<TBODY>
+<TR>
+<TD height=23></TD>
+<TD height=23></TD>
+<TD height=23></TD></TR>
+<TR>
+<TD align=middle><INPUT class=head id=but3 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 110px; HEIGHT: 20px" disabled onclick="location='main.php?go=self'" onmouseout=fadeOpacity.back(this.id) type=button value=Личное></TD>
+<TD align=middle><INPUT class=head id=but7 style="WIDTH: 110px; HEIGHT: 16px" disabled onclick="top.goloc('','cf5b890162ae6f98b5594cc94d99143a')" type=button></TD>
+<TD id=but5td align=middle><INPUT class=head id=but5 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 70px; HEIGHT: 20px" disabled onclick="location='main.php?go=back'" onmouseout=fadeOpacity.back(this.id) type=button value=Назад></TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><LINK href="ie.css" type=text/css rel=stylesheet><LINK href="ie6.css" type=text/css rel=stylesheet>
+<SCRIPT src="js/naturen.js" type=text/javascript></SCRIPT>
+
+<DIV id=center style="DISPLAY: none; Z-INDEX: 6; FILTER: ; LEFT: -2px; VISIBILITY: visible; WIDTH: 0px; ZOOM: 1; POSITION: absolute; TOP: -2px; HEIGHT: 0px" jQuery1234283919390="2"></DIV>
+<DIV class=inv id=info style="Z-INDEX: 7; LEFT: 20%; VISIBILITY: visible; WIDTH: 60%; POSITION: absolute; TOP: 70px; HEIGHT: 0px">
+<TABLE style="WIDTH: 100%" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="http://www.aloneislands.ru/images/left_top.png" width=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/top.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="http://www.aloneislands.ru/images/right_top.png" width=18></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(images/left.png); WIDTH: 18px">&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(images/bg.png)">
+<CENTER class=but>
+<CENTER class=but2><B>Туча</B> особей.</CENTER>
+<CENTER class=fightlong>
+<FORM action=main.php?fishing=on method=post><INPUT type=hidden value=2b4a9f71bfa674bdd7359b2a8f05984e name=check> 
+<TABLE class=LinedTable width="80%" border=0>
+<TBODY>
+<TR>
+<TD align=middle colSpan=7><INPUT class=login style="WIDTH: 100%" type=submit value=Ловить></TD></TR>
+<TR>
+<TD><IMG src="http://www.aloneislands.ru/images/weapons/fishing_prim_5.gif"></TD>
+<TD class=user>Зеленый горошек</TD>
+<TD class=timef>[21/50]</TD>
+<TD><INPUT type=radio value=6134608 name=primid></TD></TR>
+<TR>
+<TD><IMG src="http://www.aloneislands.ru/images/weapons/fishing_prim_5.gif"></TD>
+<TD class=user>Зеленый горошек</TD>
+<TD class=timef>[45/50]</TD>
+<TD><INPUT type=radio value=6134610 name=primid></TD></TR>
+<TR>
+<TD><IMG src="http://www.aloneislands.ru/images/weapons/fishing_prim_5.gif"></TD>
+<TD class=user>Зеленый горошек</TD>
+<TD class=timef>[50/50]</TD>
+<TD><INPUT type=radio value=6134609 name=primid></TD></TR></TBODY></TABLE></FORM></CENTER>
+<HR>
+<A class=bg href="javascript:hide_info()">Убрать</A></CENTER></TD>
+<TD style="BACKGROUND-IMAGE: url(images/right.png); WIDTH: 18px">&nbsp;</TD></TR>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="http://www.aloneislands.ru/images/left_bottom.png" width=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/bottom.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="http://www.aloneislands.ru/images/right_bottom.png" width=18></TD></TR></TBODY></TABLE></DIV>
+<DIV class=inv id=zcenter style="Z-INDEX: 6; LEFT: -2px; VISIBILITY: visible; WIDTH: 0px; POSITION: absolute; TOP: -2px; HEIGHT: 0px"></DIV>
+<DIV class=news id=center2 style="Z-INDEX: 1; LEFT: 0px; VISIBILITY: hidden; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 200%; TEXT-ALIGN: center">&nbsp;</DIV>
+<DIV id=mainouter style="DISPLAY: block; OVERFLOW: hidden; HEIGHT: 88px" jQuery1234283919390="3">
+<TABLE cellSpacing=0 borderColorDark=#ffffff cellPadding=0 width="100%" borderColorLight=#c0c0c0 border=0>
+<TBODY>
+<TR>
+<TD class=inv id=d1 vAlign=center align=middle width="25%">
+<TABLE cellSpacing=0 cellPadding=0 width=230 border=0>
+<TBODY>
+<TR>
+<TD width=26><IMG src="http://www.aloneislands.ru/images/design/hot/hp_left.gif" border=0></TD>
+<TD align=middle>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD id=hptitle title="1 здоровья за 4 сек." colSpan=2><IMG height=8 src="http://www.aloneislands.ru/images/design/new/hp.gif" width=186 border=0 name=hp><IMG height=8 src="http://www.aloneislands.ru/images/no.png" width=0 border=0 name=no_hp></TD></TR>
+<TR class=login>
+<TD class=hp id=chp>195/195</TD>
+<TD class=ma id=cma align=right>9/9</TD></TR>
+<TR>
+<TD id=matitle title="1 маны за 222 сек." colSpan=2><IMG height=8 src="http://www.aloneislands.ru/images/design/new/ma.gif" width=186 border=0 name=ma><IMG height=8 src="http://www.aloneislands.ru/images/no.png" width=0 border=0 name=no_ma></TD></TR></TBODY></TABLE></TD>
+<TD align=left width=26><IMG src="http://www.aloneislands.ru/images/design/hot/hp_right.gif" border=0></TD></TR></TBODY></TABLE>
+<TABLE style="WIDTH: 100%" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="http://www.aloneislands.ru/images/left_top.png" width=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/top.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="http://www.aloneislands.ru/images/right_top.png" width=18></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(images/left.png); WIDTH: 18px">&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(images/bg.png)">
+<CENTER>
+<DIV class=but><FONT class=green>Усталость: <B>0%</B></FONT> <A class=bg href="javascript:show_mmap(25,-3)">Миникарта</A> </DIV>
+<DIV><I>По слухам странников здесь обитают свирепые существа, были случаи жестоких убийств и расправ над бродягами...</I> </DIV>
+<HR>
+
+<DIV><I>Вода. Здесь вы можете заняться рыбной ловлей.</I> </DIV><BR>
+<DIV><IMG style="BORDER-RIGHT: #ffffff 3px outset; BORDER-TOP: #ffffff 3px outset; BORDER-LEFT: #ffffff 3px outset; BORDER-BOTTOM: #ffffff 3px outset" height=145 src="http://www.aloneislands.ru/images/weather/top/8.gif" width=145 border=0> </DIV></CENTER></TD>
+<TD style="BACKGROUND-IMAGE: url(images/right.png); WIDTH: 18px">&nbsp;</TD></TR>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="http://www.aloneislands.ru/images/left_bottom.png" width=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/bottom.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="http://www.aloneislands.ru/images/right_bottom.png" width=18></TD></TR></TBODY></TABLE></TD>
+<TD class=inv id=map vAlign=top align=middle width=560><IFRAME id=_map style="WIDTH: 540px; HEIGHT: 400px" border=0 name=_map marginWidth=0 frameSpacing=0 marginHeight=0 src="services/_map.php?x=25&amp;y=-3&amp;wx=25&amp;wy=-3&amp;at=0" frameBorder=0 noResize scrolling=no></IFRAME></TD>
+<TD class=inv id=d2 style="HEIGHT: 100%" vAlign=center align=middle>
+<TABLE style="WIDTH: 100%" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="http://www.aloneislands.ru/images/left_top.png" width=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/top.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="http://www.aloneislands.ru/images/right_top.png" width=18></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(images/left.png); WIDTH: 18px">&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(images/bg.png)">
+<CENTER>
+<P class=but><B><I>Ресурсы:</I></B> <BR>
+<LI>Рыба.<BR>
+<P></P>
+<CENTER><INPUT class=login style="WIDTH: 90%" onclick="location='main.php?fishing=on'" type=button value=Рыбалка></CENTER>
+<HR>
+Живность на локации: <BR>
+<TABLE class=LinedTable cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>Сущ-во</TD>
+<TD>Атака</TD></TR></TBODY></TABLE></LI></CENTER></TD>
+<TD style="BACKGROUND-IMAGE: url(images/right.png); WIDTH: 18px">&nbsp;</TD></TR>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="http://www.aloneislands.ru/images/left_bottom.png" width=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/bottom.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG height=18 src="http://www.aloneislands.ru/images/right_bottom.png" width=18></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV id=outer style="VISIBILITY: hidden">
+<CENTER class=but2><B>Туча</B> особей.</CENTER>
+<CENTER class=fightlong>
+<FORM action=main.php?fishing=on method=post><INPUT type=hidden value=2b4a9f71bfa674bdd7359b2a8f05984e name=check> 
+<TABLE class=LinedTable width="80%" border=0>
+<TBODY>
+<TR>
+<TD align=middle colSpan=7><INPUT class=login style="WIDTH: 100%" type=submit value=Ловить></TD></TR>
+<TR>
+<TD><IMG src="images/weapons/fishing_prim_5.gif"></TD>
+<TD class=user>Зеленый горошек</TD>
+<TD class=timef>[21/50]</TD>
+<TD><INPUT type=radio value=6134608 name=primid></TD></TR>
+<TR>
+<TD><IMG src="images/weapons/fishing_prim_5.gif"></TD>
+<TD class=user>Зеленый горошек</TD>
+<TD class=timef>[45/50]</TD>
+<TD><INPUT type=radio value=6134610 name=primid></TD></TR>
+<TR>
+<TD><IMG src="images/weapons/fishing_prim_5.gif"></TD>
+<TD class=user>Зеленый горошек</TD>
+<TD class=timef>[50/50]</TD>
+<TD><INPUT type=radio value=6134609 name=primid></TD></TR></TBODY></TABLE></FORM></CENTER></DIV>
+<SCRIPT>
+waiterSPEC(0);var aX = 25;
+var aY = -3;
+view_nature();
+</SCRIPT>
+
+<SCRIPT src="js/c.js"></SCRIPT>
+
+<DIV align=right><A href="http://www.liveinternet.ru/click" target=_blank><IMG title="LiveInternet: показано число посетителей за сегодня" height=15 alt="" src="http://counter.yadro.ru/hit?t26.5;r;s1024*768*32;uhttp%3A//www.aloneislands.ru/main.php%3Ffishing%3Don;0.6356879599418699" width=88></A><BR><A href="http://top.mail.ru/jump?from=1207359" target=_top><IMG height=18 alt=Рейтинг@Mail.ru src="http://dc.c6.b2.a1.top.list.ru/counter?id=1207359;t=109;js=13;j=true;s=1024*768;d=32;rand=0.6875448634859251" width=88></A></DIV>
+<SCRIPT src="js/tools/selectbox.js?3"></SCRIPT>
+
+<SCRIPT src="js/end.js?3"></SCRIPT>

@@ -1,0 +1,746 @@
+
+<SCRIPT type=text/javascript src="http://mc.yandex.ru/watch/184038?rn=347795&amp;cnt-class=0&amp;page-ref=http%3A%2F%2F195.242.161.132%2Fgame.php&amp;page-url=http%3A%2F%2F195.242.161.132%2Fmain.php&amp;browser-info=j:1:s:1024x768x32:f:10.0.32.18:fr:1&amp;wmode=1"></SCRIPT>
+</FONT>
+<DIV style="Z-INDEX: 65000; POSITION: absolute; FILTER: ; WIDTH: 200px; ZOOM: 1; DISPLAY: none; HEIGHT: 30px; TOP: 241px; LEFT: 468px" id=description onmouseover=h_des() jQuery1257704207580="4">
+<DIV class=alt><B><I>Нож&nbsp;легенды</B></I><BR><B class=about>Уровень: 15</B><BR>Клан: <IMG src="http://195.242.161.132/images/signs/c18.gif"><B>Рожденные огнём</B><BR><B>5520 LN</B><BR>Жизнь: <B>+40</B><BR>Удар: <B>17-24</B><BR>Слотов: <B>1</B><BR>Долговечность:&nbsp;<B>150/150</B><BR></DIV></DIV>
+<DIV style="Z-INDEX: 1; POSITION: absolute; WIDTH: 0px; DISPLAY: none; HEIGHT: 0px; TOP: -5px; LEFT: -5px" id=ec class=but>&nbsp;</DIV>
+<SCRIPT>var images='images';show_head('1','Природа','onclick=\"top.goloc(\'out\',\'efb3635ecb3e7c5f24a95193c5c1d397\')\"',0,0,3);</SCRIPT>
+
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/bg_top_up.gif height=58 sizcache="1" sizset="0">
+<TBODY sizcache="1" sizset="0">
+<TR nodeIndex="1" sizcache="1" sizset="1">
+<TD width="50%" sizcache="1" sizset="1">
+<TABLE style="BACKGROUND-REPEAT: no-repeat" border=0 cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/left_top_up2.gif height="100%" sizcache="1" sizset="1">
+<TBODY sizcache="1" sizset="1">
+<TR nodeIndex="1">
+<TD height=24>&nbsp;</TD>
+<TD height=24>&nbsp;</TD>
+<TD height=24>&nbsp;</TD></TR>
+<TR nodeIndex="2">
+<TD align=middle><INPUT style="WIDTH: 160px; HEIGHT: 18px" id=but1 class=head onclick="location='main.php?go=pers'" value=Персонаж type=button></TD>
+<TD align=middle><INPUT style="WIDTH: 160px; HEIGHT: 18px" id=but2 class=head disabled onclick="location='main.php?go=inv'" value=Рюкзак type=button></TD>
+<TD align=middle></TD></TR>
+<TR nodeIndex="3">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD></TR></TBODY></TABLE></TD>
+<TD sizcache="1" sizset="3">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=375 background=images/design/new/middle_top_up.gif height=58 sizcache="1" sizset="3">
+<TBODY sizcache="1" sizset="3">
+<TR nodeIndex="1">
+<TD width=124>&nbsp;</TD>
+<TD width=118>&nbsp;</TD>
+<TD>&nbsp;</TD></TR>
+<TR nodeIndex="2">
+<TD height=29 vAlign=top width=124 align=right><INPUT style="WIDTH: 68px; HEIGHT: 20px; FONT-SIZE: 11px" id=but9 class=head onclick="location='main.php'" value=Обновить type=button></TD>
+<TD height=29 width=118>&nbsp;</TD>
+<TD height=29 vAlign=top><INPUT style="WIDTH: 68px; HEIGHT: 20px; FONT-SIZE: 11px" id=but8 class=head onclick=exit(); value=Выход type=button></TD></TR></TBODY></TABLE></TD>
+<TD background=images/design/new/bg_top_up.gif width="50%" sizcache="1" sizset="4">
+<TABLE style="BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right center" border=0 cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/right_top_up2.gif height="100%" sizcache="1" sizset="4">
+<TBODY sizcache="1" sizset="4">
+<TR nodeIndex="1">
+<TD height=23></TD>
+<TD height=23></TD>
+<TD height=23></TD></TR>
+<TR nodeIndex="2">
+<TD align=middle></TD>
+<TD align=middle><INPUT style="WIDTH: 160px; HEIGHT: 16px" id=but7 class=head onclick="top.goloc('out','efb3635ecb3e7c5f24a95193c5c1d397')" value=Природа type=button></TD>
+<TD id=but5td align=middle><INPUT style="WIDTH: 70px; HEIGHT: 20px" id=but5 class=head onclick="location='main.php?go=back'" value=Назад type=button></TD></TR>
+<TR nodeIndex="3">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV style="POSITION: absolute; HEIGHT: 0px; VISIBILITY: hidden; TOP: 0px" id=inf_from_php></DIV>
+<SCRIPT>document.getElementById('fish/11_1_14.14_').innerHTML = '2 шт.';document.getElementById('fish/11_1_14.14_').innerHTML = '3 шт.';document.getElementById('fish/11_1_14.14_').innerHTML = '4 шт.';document.getElementById('fish/11_1_14.14_').innerHTML = '5 шт.';document.getElementById('fish/11_1_14.14_').innerHTML = '6 шт.';document.getElementById('fish/11_1_14.14_').innerHTML = '7 шт.';document.getElementById('fish/11_1_13.81_').innerHTML = '2 шт.';document.getElementById('fish/11_1_13.81_').innerHTML = '3 шт.';document.getElementById('fish/11_1_13.81_').innerHTML = '4 шт.';document.getElementById('fish/18_1_13.81_').innerHTML = '2 шт.';document.getElementById('fish/11_1_13.81_').innerHTML = '5 шт.';document.getElementById('fish/11_1_13.81_').innerHTML = '6 шт.';document.getElementById('fish/18_1_13.81_').innerHTML = '3 шт.';document.getElementById('fish/18_1_13.46_').innerHTML = '2 шт.';document.getElementById('fish/18_1_13.46_').innerHTML = '3 шт.';document.getElementById('fish/11_1_13.46_').innerHTML = '2 шт.';document.getElementById('fish/11_1_13.05_').innerHTML = '2 шт.';document.getElementById('fish/11_1_13.05_').innerHTML = '3 шт.';document.getElementById('fish/11_1_13.05_').innerHTML = '4 шт.';document.getElementById('fish/11_1_13.05_').innerHTML = '5 шт.';document.getElementById('fish/18_1_12.57_').innerHTML = '2 шт.';document.getElementById('fish/11_1_12.57_').innerHTML = '2 шт.';document.getElementById('fish/11_1_12.57_').innerHTML = '3 шт.';document.getElementById('fish/11_1_12.57_').innerHTML = '4 шт.';document.getElementById('fish/11_1_12.57_').innerHTML = '5 шт.';document.getElementById('fish/18_1_12.57_').innerHTML = '3 шт.';document.getElementById('fish/18_1_12.57_').innerHTML = '4 шт.';document.getElementById('fish/18_1_12.57_').innerHTML = '5 шт.';document.getElementById('fish/18_1_12.57_').innerHTML = '6 шт.';document.getElementById('fish/11_1_12.57_').innerHTML = '6 шт.';document.getElementById('fish/18_1_12.57_').innerHTML = '7 шт.';document.getElementById('fish/11_1_11.94_').innerHTML = '2 шт.';document.getElementById('fish/11_1_11.94_').innerHTML = '3 шт.';document.getElementById('fish/11_1_11.94_').innerHTML = '4 шт.';document.getElementById('fish/18_1_11.94_').innerHTML = '2 шт.';document.getElementById('fish/18_1_11.94_').innerHTML = '3 шт.';document.getElementById('fish/18_1_11.94_').innerHTML = '4 шт.';document.getElementById('fish/18_1_10.43_').innerHTML = '2 шт.';document.getElementById('fish/18_1_10.43_').innerHTML = '3 шт.';document.getElementById('fish/11_1_10.43_').innerHTML = '2 шт.';document.getElementById('fish/18_1_10.43_').innerHTML = '4 шт.';document.getElementById('fish/18_1_10.43_').innerHTML = '5 шт.';document.getElementById('fish/18_1_10.43_').innerHTML = '6 шт.';document.getElementById('fish/11_1_10.43_').innerHTML = '3 шт.';var DecreaseDamage = 60;build_pers('512_1024','5790738|<b><i>Шлем&nbsp;призрачного&nbsp;воина(ап)</b></i>@<b class=about>Уровень: 10</b>@Клан: <img src=images/signs/c18.gif><b>Рожденные огнём</b>@<b>1625 LN</b>@Класс брони: <B>+37</B>@Жизнь: <B>+25</B>@Слотов: <B>1</B>@Долговечность:&nbsp;<B>100/100</B>@','462_924','6453927|<b><i>Кулон&nbsp;&quot;клыки&nbsp;дракона&quot;</b></i>@<b class=about>Уровень: 10</b>@Клан: <img src=images/signs/c18.gif><b>Рожденные огнём</b>@<b>1265 LN</b>@Удар: <B>1-2</B>@Слотов: <B>1</B>@Долговечность:&nbsp;<B>100/100</B>@','fishing_noob','7963653|<b><i>Бамбуковая&nbsp;удочка&nbsp;новичка</b></i>@<b class=about>Уровень: 5</b>@<b>20 LN</b>@Долговечность:&nbsp;<B>1/50</B>@','slots/pob4','0','slots/pob5','0','slots/pob6','0','slots/pob7','0','554_1108','6508483|<b><i>Сапоги&nbsp;ветров</b></i>@<b class=about>Уровень: 10</b>@Клан: <img src=images/signs/c18.gif><b>Рожденные огнём</b>@<b>1268 LN</b>@Класс брони: <B>+10</B>@Удар: <B>5-10</B>@Слотов: <B>1</B>@Долговечность:&nbsp;<B>100/100</B>@','42_84','6778750|<b><i>Воздушные&nbsp;наручи</b></i>@<b class=about>Уровень: 10</b>@Клан: <img src=images/signs/c18.gif><b>Рожденные огнём</b>@<b>1237 LN</b>@Класс брони: <B>+6</B>@Удар: <B>2-4</B>@Слотов: <B>1</B>@Долговечность:&nbsp;<B>100/100</B>@','43_86','6081026|<b><i>Перчатки&nbsp;опережения(ап)</b></i>@<b class=about>Уровень: 10</b>@Клан: <img src=images/signs/c18.gif><b>Рожденные огнём</b>@<b>1598 LN</b>@Класс брони: <B>+34</B>@Жизнь: <B>+10</B>@Слотов: <B>1</B>@Долговечность:&nbsp;<B>100/100</B>@','art_noz_1','6978706|<b><i>Нож&nbsp;легенды</b></i>@<b class=about>Уровень: 15</b>@Клан: <img src=images/signs/c18.gif><b>Рожденные огнём</b>@<b>5520 LN</b>@Жизнь: <B>+40</B>@Удар: <B>17-24</B>@Слотов: <B>1</B>@Долговечность:&nbsp;<B>150/150</B>@','slots/pob12','0','slots/pob13','0','412_824','6447137|<b><i>Плащ&nbsp;рыбака</b></i>@<b class=about>Уровень: 10</b>@Клан: <img src=images/signs/c18.gif><b>Рожденные огнём</b>@<b>1050 LN</b>@Долговечность:&nbsp;<B>100/100</B>@','male_10',0,'c18','Kvant','16','300','300','9','9',15.4001,'hp_10','hp_10','hp_10','hp_10','6992017|<b><i>Фляга&nbsp;восстановления&nbsp;250&nbsp;HP</b></i>@<b class=about>Уровень: 4</b>@<b>110 LN</b>@Долговечность:&nbsp;<B>1/5</B>@','7938218|<b><i>Фляга&nbsp;восстановления&nbsp;250&nbsp;HP</b></i>@<b class=about>Уровень: 4</b>@<b>110 LN</b>@Долговечность:&nbsp;<B>5/5</B>@','7938217|<b><i>Фляга&nbsp;восстановления&nbsp;250&nbsp;HP</b></i>@<b class=about>Уровень: 4</b>@<b>110 LN</b>@Долговечность:&nbsp;<B>5/5</B>@','7938215|<b><i>Фляга&nbsp;восстановления&nbsp;250&nbsp;HP</b></i>@<b class=about>Уровень: 4</b>@<b>110 LN</b>@Долговечность:&nbsp;<B>5/5</B>@',300,300,9,9,700,1000,29,52,28,45,3,1,7,7937.65,3.00,131,47,76,47,-15,16,26,41,123.81,'Граф',1092,256,2427577,108141,2464282,11,1,'0',103,'+6','+16','+7','0','0','0',168,3,0,223);
+</SCRIPT>
+
+<TABLE class=inv border=1 cellSpacing=0 cellPadding=0 width="100%" sizcache="1" sizset="6">
+<TBODY sizcache="1" sizset="6">
+<TR nodeIndex="1" sizcache="1" sizset="7">
+<TD class=inv vAlign=top width=200 sizcache="1" sizset="7"><B class=about>Деньги</B>
+<CENTER sizcache="1" sizset="7">
+<TABLE class=table_solid border=0 cellSpacing=0 width="90%" cellspadding="0" sizcache="1" sizset="7">
+<TBODY sizcache="1" sizset="7">
+<TR nodeIndex="1">
+<TD class=gray>Игровые деньги:</TD>
+<TD><A class=blocked href="javascript:peredatm()">7937.65 LN</A></TD></TR>
+<TR nodeIndex="2">
+<TD class=gray>Бриллианты:</TD>
+<TD><A class=blocked title=Бриллианты href="main.php?go=pers&amp;gopers=service">3</A></TD></TR>
+<TR nodeIndex="3">
+<TD class=gray>Пергаменты:</TD>
+<TD class=ma>223<IMG title="Количество ваших пергаментов , полученных за проведение отличных боёв. Они могут вам понадобиться в университете." src="images/pgs.gif" height=12></TD></TR></TBODY></TABLE></CENTER><IMG src="images/emp.gif" height=5><BR><B class=about>Основные</B>
+<CENTER sizcache="1" sizset="9">
+<TABLE class=table_solid border=0 cellSpacing=1 width="90%" cellspadding="1" sizcache="1" sizset="9">
+<TBODY sizcache="1" sizset="9">
+<TR nodeIndex="1" sizcache="1" sizset="10">
+<TD style="BORDER-BOTTOM: #dfdfdf 1px solid" class=stats onmouseover="s_des(event,'|Сила влияет на урон, наносимый при физическом контакте в бою.')" onmousemove=move_alt(event) onmouseout=h_des() width="50%">Сила:</TD>
+<TD style="BORDER-BOTTOM: #dfdfdf 1px solid" sizcache="1" sizset="10">
+<DIV id=sila sizcache="1" sizset="10">
+<TABLE border=0 cellSpacing=1 width=60 cellspadding="1" sizcache="1" sizset="10">
+<TBODY sizcache="1" sizset="10">
+<TR nodeIndex="1">
+<TD class=mf width=30>29</TD>
+<TD width=15><A style="CURSOR: pointer" class=bga onclick=stups(1) href="http://195.242.161.132/main.php#">+</A></TD>
+<TD width=15><A style="CURSOR: pointer" class=bga onclick=stups(-1) href="http://195.242.161.132/main.php#">-</A></TD></TR></TBODY></TABLE></DIV></TD></TR>
+<TR nodeIndex="2"></TR>
+<TR nodeIndex="3" sizcache="1" sizset="12">
+<TD style="BORDER-BOTTOM: #dfdfdf 1px solid" class=stats onmouseover="s_des(event,'|Реакция влияет на шанс увернуться в бою от ударов противника, а так же уменьшает шанс противнику на уворот.')" onmousemove=move_alt(event) onmouseout=h_des() width="50%">Реакция:</TD>
+<TD style="BORDER-BOTTOM: #dfdfdf 1px solid" sizcache="1" sizset="12">
+<DIV id=lovk sizcache="1" sizset="12">
+<TABLE border=0 cellSpacing=1 width=60 cellspadding="1" sizcache="1" sizset="12">
+<TBODY sizcache="1" sizset="12">
+<TR nodeIndex="1">
+<TD class=mf width=30>52</TD>
+<TD width=15><A style="CURSOR: pointer" class=bga onclick=stupl(1) href="http://195.242.161.132/main.php#">+</A></TD>
+<TD width=15><A style="CURSOR: pointer" class=bga onclick=stupl(-1) href="http://195.242.161.132/main.php#">-</A></TD></TR></TBODY></TABLE></DIV></TD></TR>
+<TR nodeIndex="4"></TR>
+<TR nodeIndex="5" sizcache="1" sizset="14">
+<TD style="BORDER-BOTTOM: #dfdfdf 1px solid" class=stats onmouseover="s_des(event,'|Удача влияет на шанс нанести сокрушительный удар в бою.')" onmousemove=move_alt(event) onmouseout=h_des() width="50%">Удача:</TD>
+<TD style="BORDER-BOTTOM: #dfdfdf 1px solid" sizcache="1" sizset="14">
+<DIV id=udacha sizcache="1" sizset="14">
+<TABLE border=0 cellSpacing=1 width=60 cellspadding="1" sizcache="1" sizset="14">
+<TBODY sizcache="1" sizset="14">
+<TR nodeIndex="1">
+<TD class=mf width=30>28</TD>
+<TD width=15><A style="CURSOR: pointer" class=bga onclick=stupu(1) href="http://195.242.161.132/main.php#">+</A></TD>
+<TD width=15><A style="CURSOR: pointer" class=bga onclick=stupu(-1) href="http://195.242.161.132/main.php#">-</A></TD></TR></TBODY></TABLE></DIV></TD></TR>
+<TR nodeIndex="6"></TR>
+<TR nodeIndex="7" sizcache="1" sizset="16">
+<TD style="BORDER-BOTTOM: #dfdfdf 1px solid" class=stats onmouseover="s_des(event,'|Здоровье повышает вашу жизнь, броню и влияет на массу, которую может носить ваш персонаж.')" onmousemove=move_alt(event) onmouseout=h_des() width="50%">Здоровье:</TD>
+<TD style="BORDER-BOTTOM: #dfdfdf 1px solid" sizcache="1" sizset="16">
+<DIV id=zdorov sizcache="1" sizset="16">
+<TABLE border=0 cellSpacing=1 width=60 cellspadding="1" sizcache="1" sizset="16">
+<TBODY sizcache="1" sizset="16">
+<TR nodeIndex="1">
+<TD class=mf width=30>45</TD>
+<TD width=15><A style="CURSOR: pointer" class=bga onclick=stupzd(1) href="http://195.242.161.132/main.php#">+</A></TD>
+<TD width=15><A style="CURSOR: pointer" class=bga onclick=stupzd(-1) href="http://195.242.161.132/main.php#">-</A></TD></TR></TBODY></TABLE></DIV></TD></TR>
+<TR nodeIndex="8"></TR>
+<TR nodeIndex="9" sizcache="1" sizset="18">
+<TD style="BORDER-BOTTOM: #dfdfdf 1px solid" class=stats onmouseover="s_des(event,'|Интеллект позволяет осваивать мирные профессии. Интеллект не влияет в бою.')" onmousemove=move_alt(event) onmouseout=h_des() width="50%">Интеллект:</TD>
+<TD style="BORDER-BOTTOM: #dfdfdf 1px solid" sizcache="1" sizset="18">
+<DIV id=znanya sizcache="1" sizset="18">
+<TABLE border=0 cellSpacing=1 width=60 cellspadding="1" sizcache="1" sizset="18">
+<TBODY sizcache="1" sizset="18">
+<TR nodeIndex="1">
+<TD class=mf width=30>3</TD>
+<TD width=15><A style="CURSOR: pointer" class=bga onclick=stupzn(1) href="http://195.242.161.132/main.php#">+</A></TD>
+<TD width=15><A style="CURSOR: pointer" class=bga onclick=stupzn(-1) href="http://195.242.161.132/main.php#">-</A></TD></TR></TBODY></TABLE></DIV></TD></TR>
+<TR nodeIndex="10" sizcache="1" sizset="19">
+<TD style="BORDER-BOTTOM: #dfdfdf 1px solid" class=stats onmouseover="s_des(event,'|Сила воли повышает количество маны и увеличивает урон ваших заклинаний.')" onmousemove=move_alt(event) onmouseout=h_des() width="50%" noWrap>Сила Воли:</TD>
+<TD style="BORDER-BOTTOM: #dfdfdf 1px solid" sizcache="1" sizset="19">
+<DIV id=power sizcache="1" sizset="19">
+<TABLE border=0 cellSpacing=1 width=60 cellspadding="1" sizcache="1" sizset="19">
+<TBODY sizcache="1" sizset="19">
+<TR nodeIndex="1">
+<TD class=mf width=30>1</TD>
+<TD width=15><A style="CURSOR: pointer" class=bga onclick=stupp(1) href="http://195.242.161.132/main.php#">+</A></TD>
+<TD width=15><A style="CURSOR: pointer" class=bga onclick=stupp(-1) href="http://195.242.161.132/main.php#">-</A></TD></TR></TBODY></TABLE></DIV></TD></TR>
+<TR nodeIndex="11"></TR>
+<TR nodeIndex="12">
+<TD colSpan=6 align=middle>
+<DIV id=ups class=timef><IMG src="http://195.242.161.132/images/design/warningblue.gif">Повышений: 7</DIV></TD></TR></TBODY></TABLE></CENTER>
+<DIV id=SAVEstats align=center bgcolor="#F5F5F5"><A class=bga onclick=save() href="javascript:void(0)">Сохранить</A></DIV><B class=about>Модификаторы</B>
+<CENTER sizcache="1" sizset="21">
+<TABLE class=table_solid border=0 cellSpacing=0 width="90%" sizcache="1" sizset="21">
+<TBODY sizcache="1" sizset="21">
+<TR nodeIndex="1">
+<TD style="BORDER-BOTTOM: #dfdfdf 1px solid" class=gray>Класс&nbsp;Брони:</TD>
+<TD style="BORDER-BOTTOM: #dfdfdf 1px solid" class=green width="90%" align=middle>131</TD></TR>
+<TR nodeIndex="2">
+<TD class=gray>Удар:</TD>
+<TD class=mfb width="90%">26-41</TD></TR>
+<TR nodeIndex="3">
+<TD class=gray>Сокрушение:</TD>
+<TD class=mfb width="90%">47%</TD></TR>
+<TR nodeIndex="4">
+<TD class=gray>Уловка:</TD>
+<TD class=mfb width="90%">76%</TD></TR>
+<TR nodeIndex="5">
+<TD class=gray>Точность:</TD>
+<TD class=mfb width="90%">47%</TD></TR>
+<TR nodeIndex="6">
+<TD class=gray>Стойкость:</TD>
+<TD class=mfb width="90%">-15%</TD></TR>
+<TR nodeIndex="7">
+<TD class=gray>Ярость:</TD>
+<TD class=mfb width="90%">16%</TD></TR>
+<TR nodeIndex="8">
+<TD class=gray>Ранк:</FONT></TD>
+<TD class=mfb width="90%">123.81</TD></TR>
+<TR nodeIndex="9">
+<TD><FONT class=gray>Звание:</FONT></TD>
+<TD class=gray align=middle>Граф</TD></TR></TBODY></TABLE></CENTER></TD>
+<TD class=inv vAlign=top width=250 align=middle sizcache="1" sizset="26">
+<TABLE style="POSITION: relative; WIDTH: 100%; TOP: -8px" cellSpacing=0 cellPadding=0 sizcache="1" sizset="26">
+<TBODY sizcache="1" sizset="26">
+<TR nodeIndex="1">
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="images/left_top.png" width=18 height=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/top.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="images/right_top.png" width=18 height=18></TD></TR>
+<TR nodeIndex="2" sizcache="1" sizset="27">
+<TD style="BACKGROUND-IMAGE: url(images/left.png); WIDTH: 18px">&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(images/bg.png)" sizcache="1" sizset="27">
+<TABLE style="POSITION: relative; TOP: -2px" border=0 cellSpacing=0 cellPadding=0 width=220 sizcache="1" sizset="27">
+<TBODY sizcache="1" sizset="27">
+<TR nodeIndex="1" sizcache="1" sizset="28">
+<TD align=middle sizcache="1" sizset="28">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=220 sizcache="1" sizset="28">
+<TBODY sizcache="1" sizset="28">
+<TR nodeIndex="1" sizcache="1" sizset="29">
+<TD width=26><IMG border=0 src="images/design/hot/hp_left.gif"></TD>
+<TD align=middle sizcache="1" sizset="29">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%" sizcache="1" sizset="29">
+<TBODY sizcache="1" sizset="29">
+<TR nodeIndex="1">
+<TD id=hptitle title="1 здоровья за 1 сек." colSpan=2><IMG border=0 name=hp src="../images/design/new/hp.gif" width=186 height=8><IMG border=0 name=no_hp src="../images/no.png" width=0 height=8></TD></TR>
+<TR class=login nodeIndex="2">
+<TD id=chp class=hp>300/300</TD>
+<TD id=cma class=ma align=right>9/9</TD></TR>
+<TR nodeIndex="3">
+<TD id=matitle title="1 маны за 56 сек." colSpan=2><IMG border=0 name=ma src="images/design/new/ma.gif" width=186 height=8><IMG border=0 name=no_ma src="images/no.png" width=0 height=8></TD></TR></TBODY></TABLE></TD>
+<TD width=26 align=left><IMG border=0 src="images/design/hot/hp_right.gif"></TD></TR></TBODY></TABLE></TD></TR>
+<TR nodeIndex="2">
+<TD class=table_solid width="100%" align=middle><IMG style="CURSOR: pointer" title=Приват onclick="top.say_private('Kvant',1)" src="images/pr.gif" height=16> <IMG src="/images/signs/c18.gif"><FONT class=user>Kvant</FONT> <FONT class=lvl>[16]</FONT> &nbsp; <FONT class=green title=Усталость>15%</FONT></TD></TR>
+<TR nodeIndex="3" sizcache="1" sizset="32">
+<TD sizcache="1" sizset="32">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=220 sizcache="1" sizset="32">
+<TBODY sizcache="1" sizset="32">
+<TR nodeIndex="1" sizcache="1" sizset="33">
+<TD height=272 vAlign=bottom width=30></TD>
+<TD width=220 align=middle sizcache="1" sizset="33">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=220 sizcache="1" sizset="33">
+<TBODY sizcache="1" sizset="33">
+<TR nodeIndex="1">
+<TD vAlign=top width=62><IMG src="images/weapons/slots/slot1.gif" width=62 height=20><IMG style="CURSOR: pointer" onmouseover="s_des(event,'6778750|<b><i>Воздушные&nbsp;наручи</b></i>@<b class=about>Уровень: 10</b>@Клан: <img src=images/signs/c18.gif><b>Рожденные огнём</b>@<b>1237 LN</b>@Класс брони: <B>+6</B>@Удар: <B>2-4</B>@Слотов: <B>1</B>@Долговечность:&nbsp;<B>100/100</B>@')" onmousemove=move_alt(event) onmouseout=h_des() onclick='location="main.php?sn=6778750"' src="images/weapons/42_84.gif" width=62 height=40><IMG style="CURSOR: pointer" onmouseover="s_des(event,'6081026|<b><i>Перчатки&nbsp;опережения(ап)</b></i>@<b class=about>Уровень: 10</b>@Клан: <img src=images/signs/c18.gif><b>Рожденные огнём</b>@<b>1598 LN</b>@Класс брони: <B>+34</B>@Жизнь: <B>+10</B>@Слотов: <B>1</B>@Долговечность:&nbsp;<B>100/100</B>@')" onmousemove=move_alt(event) onmouseout=h_des() onclick='location="main.php?sn=6081026"' src="images/weapons/43_86.gif" width=62 height=40><IMG style="CURSOR: pointer" onmouseover="s_des(event,'7963653|<b><i>Бамбуковая&nbsp;удочка&nbsp;новичка</b></i>@<b class=about>Уровень: 5</b>@<b>20 LN</b>@Долговечность:&nbsp;<B>1/50</B>@')" onmousemove=move_alt(event) onmouseout=h_des() onclick='location="main.php?sn=7963653"' src="images/weapons/fishing_noob.gif" width=62 height=91><IMG style="CURSOR: pointer" onmouseover="s_des(event,'6447137|<b><i>Плащ&nbsp;рыбака</b></i>@<b class=about>Уровень: 10</b>@Клан: <img src=images/signs/c18.gif><b>Рожденные огнём</b>@<b>1050 LN</b>@Долговечность:&nbsp;<B>100/100</B>@')" onmousemove=move_alt(event) onmouseout=h_des() onclick='location="main.php?sn=6447137"' src="images/weapons/412_824.gif" width=62 height=90></TD>
+<TD width=115 align=middle><IMG title=Kvant src="images/persons/male_10.gif" width=115></TD>
+<TD vAlign=top width=62 align=right><IMG style="CURSOR: pointer" onmouseover="s_des(event,'5790738|<b><i>Шлем&nbsp;призрачного&nbsp;воина(ап)</b></i>@<b class=about>Уровень: 10</b>@Клан: <img src=images/signs/c18.gif><b>Рожденные огнём</b>@<b>1625 LN</b>@Класс брони: <B>+37</B>@Жизнь: <B>+25</B>@Слотов: <B>1</B>@Долговечность:&nbsp;<B>100/100</B>@')" onmousemove=move_alt(event) onmouseout=h_des() onclick='location="main.php?sn=5790738"' src="images/weapons/512_1024.gif" width=62 height=65><IMG style="CURSOR: pointer" onmouseover="s_des(event,'6453927|<b><i>Кулон&nbsp;&quot;клыки&nbsp;дракона&quot;</b></i>@<b class=about>Уровень: 10</b>@Клан: <img src=images/signs/c18.gif><b>Рожденные огнём</b>@<b>1265 LN</b>@Удар: <B>1-2</B>@Слотов: <B>1</B>@Долговечность:&nbsp;<B>100/100</B>@')" onmousemove=move_alt(event) onmouseout=h_des() onclick='location="main.php?sn=6453927"' src="images/weapons/462_924.gif" width=62 height=35><IMG style="CURSOR: pointer" onmouseover="s_des(event,'6978706|<b><i>Нож&nbsp;легенды</b></i>@<b class=about>Уровень: 15</b>@Клан: <img src=images/signs/c18.gif><b>Рожденные огнём</b>@<b>5520 LN</b>@Жизнь: <B>+40</B>@Удар: <B>17-24</B>@Слотов: <B>1</B>@Долговечность:&nbsp;<B>150/150</B>@')" onmousemove=move_alt(event) onmouseout=h_des() onclick='location="main.php?sn=6978706"' src="images/weapons/art_noz_1.gif" width=62 height=91><IMG onmouseover="s_des(event,'0')" onmousemove=move_alt(event) onmouseout=h_des() src="images/weapons/slots/pob4.gif" width=62 height=30 undefined><IMG style="CURSOR: pointer" onmouseover="s_des(event,'6508483|<b><i>Сапоги&nbsp;ветров</b></i>@<b class=about>Уровень: 10</b>@Клан: <img src=images/signs/c18.gif><b>Рожденные огнём</b>@<b>1268 LN</b>@Класс брони: <B>+10</B>@Удар: <B>5-10</B>@Слотов: <B>1</B>@Долговечность:&nbsp;<B>100/100</B>@')" onmousemove=move_alt(event) onmouseout=h_des() onclick='location="main.php?sn=6508483"' src="images/weapons/554_1108.gif" width=62 height=60></TD></TR>
+<TR nodeIndex="2">
+<TD width="100%" align=left><IMG style="CURSOR: pointer" onmouseover="s_des(event,'6992017|<b><i>Фляга&nbsp;восстановления&nbsp;250&nbsp;HP</b></i>@<b class=about>Уровень: 4</b>@<b>110 LN</b>@Долговечность:&nbsp;<B>1/5</B>@')" onmousemove=move_alt(event) onmouseout=h_des() onclick='location="main.php?sn=6992017"' src="images/weapons/hp_10.gif" width=31 height=31><IMG style="CURSOR: pointer" onmouseover="s_des(event,'7938218|<b><i>Фляга&nbsp;восстановления&nbsp;250&nbsp;HP</b></i>@<b class=about>Уровень: 4</b>@<b>110 LN</b>@Долговечность:&nbsp;<B>5/5</B>@')" onmousemove=move_alt(event) onmouseout=h_des() onclick='location="main.php?sn=7938218"' src="images/weapons/hp_10.gif" width=31 height=31></TD>
+<TD align=middle><IMG onmouseover="s_des(event,'0')" onmousemove=move_alt(event) onmouseout=h_des() src="images/weapons/slots/pob12.gif" width=31 height=31 undefined><IMG onmouseover="s_des(event,'0')" onmousemove=move_alt(event) onmouseout=h_des() src="images/weapons/slots/pob13.gif" width=31 height=31 undefined></TD>
+<TD align=right><IMG style="CURSOR: pointer" onmouseover="s_des(event,'7938217|<b><i>Фляга&nbsp;восстановления&nbsp;250&nbsp;HP</b></i>@<b class=about>Уровень: 4</b>@<b>110 LN</b>@Долговечность:&nbsp;<B>5/5</B>@')" onmousemove=move_alt(event) onmouseout=h_des() onclick='location="main.php?sn=7938217"' src="images/weapons/hp_10.gif" width=31 height=31><IMG style="CURSOR: pointer" onmouseover="s_des(event,'7938215|<b><i>Фляга&nbsp;восстановления&nbsp;250&nbsp;HP</b></i>@<b class=about>Уровень: 4</b>@<b>110 LN</b>@Долговечность:&nbsp;<B>5/5</B>@')" onmousemove=move_alt(event) onmouseout=h_des() onclick='location="main.php?sn=7938215"' src="images/weapons/hp_10.gif" width=31 height=31></TD>
+<TD height=32 vAlign=bottom align=right></TD></TR></TBODY></TABLE></TD>
+<TD height=272 vAlign=bottom width=30></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD style="BACKGROUND-IMAGE: url(images/right.png); WIDTH: 18px">&nbsp;</TD></TR>
+<TR nodeIndex="3">
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="images/left_bottom.png" width=18 height=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/bottom.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="images/right_bottom.png" width=18 height=18></TD></TR></TBODY></TABLE>
+<DIV id=aurasc class=aurasc></DIV></TD>
+<TD id=weapons class=inv height="100%" vAlign=top align=left sizcache="1" sizset="35">
+<CENTER class=timef width=100% sizcache="1" sizset="35">
+<TABLE class=inv_but border=1 width="80%" sizcache="1" sizset="35">
+<TBODY sizcache="1" sizset="35">
+<TR nodeIndex="1">
+<TD colSpan=10 align=middle>Масса вещей: [460/460] из 276 ваших вещей.</TD></TR>
+<TR nodeIndex="2">
+<TD><A class=Blocked href="javascript:inv_conf()"><IMG src="http://195.242.161.132/images/icons/0_on.png"></A></TD>
+<TD><A class=Blocked href="http://195.242.161.132/main.php?snall=all">Снять всё</A></TD>
+<TD><A class=Blocked href="http://195.242.161.132/main.php?inv=weapons">Вещи</A></TD>
+<TD><A class=Blocked href="http://195.242.161.132/main.php?inv=magic">Магия</A></TD>
+<TD><A class=Blocked href="http://195.242.161.132/main.php?inv=presents">Подарки</A></TD>
+<TD><A class=Blocked href="http://195.242.161.132/main.php?inv=cat3">Комплекты</A> </TD>
+<TD><A class=bg>Алхимия</A></TD></TR></TBODY></TABLE>
+<DIV id=container1 class=combofight sizcache="1" sizset="36">
+<TABLE border=0 width="100%" sizcache="1" sizset="36">
+<TBODY sizcache="1" sizset="36">
+<TR nodeIndex="1">
+<TD style="CURSOR: pointer" onclick="location='main.php?filter_f4=herbal'" align=middle><IMG src="http://195.242.161.132/images/gameplay/shop_icons/travy.png"> 
+<DIV class=gray>Травы[0]</DIV></TD>
+<TD style="CURSOR: pointer" onclick="location='main.php?filter_f4=resources'" align=middle><IMG src="http://195.242.161.132/images/gameplay/shop_icons/resources.png"> 
+<DIV class=gray>Ресурсы[0]</DIV></TD>
+<TD style="CURSOR: pointer" onclick="location='main.php?filter_f4=fish'" align=middle><IMG src="http://195.242.161.132/images/gameplay/shop_icons/fish.png"> 
+<DIV class=gray>Рыба[58]</DIV></TD></TR></TBODY></TABLE><A class=nt href="http://195.242.161.132/main.php?filter_f4=all">Весь инвентарь</A></DIV>
+<SCRIPT>
+	var _type = 'fish';
+	var _group = '0';
+	var _sort = '';
+	var __types = 'orujie=Оружие|shlem=Шлемы|ojerelie=Ожерелья|poyas=Пояса|sapogi=Сапоги|naruchi=Наручи|perchatki=Перчатки|kolco=Кольца|bronya=Брони|napad=Свитки нападения|zakl=Свитки заклинаний|teleport=Свитки телепорта|zelie=Зелья/камни|kam=Зелья восстановления|potion=Зелья|herbal=Травы|fishing=Рыболовные снасти|fish=Рыба|resources=Ресурсы|rune=Руны|';
+	var _herbal = 0;
+	var _resources = 0;
+	var _fish = 58;
+</SCRIPT>
+
+<SCRIPT type=text/javascript src="js/inv.js"></SCRIPT>
+
+<DIV style="Z-INDEX: 2; POSITION: absolute; WIDTH: 0px; HEIGHT: 0px; VISIBILITY: visible; TOP: -2px; LEFT: -2px" id=center jQuery1257704207580="2"></DIV>
+<DIV style="Z-INDEX: 1; POSITION: absolute; WIDTH: 100%; DISPLAY: none; HEIGHT: 100%; TOP: 0px; LEFT: 0px" id=center2 class=news>&nbsp;</DIV><INPUT class=loc onclick="location='main.php?give=allfish'" value="Сдать всю рыбу" type=button> </CENTER>
+<CENTER sizcache="1" sizset="37">
+<TABLE border=2 cellSpacing=2 borderColorLight=#c0c0c0 borderColorDark=#ffffff cellPadding=2 width="98%" sizcache="1" sizset="37">
+<TBODY sizcache="1" sizset="37">
+<TR nodeIndex="1" sizcache="1" sizset="38">
+<TD class=weapons_box align=left sizcache="1" sizset="38">
+<SCRIPT>
+show_w ('Щука','1','fish/11','1','1','<font class=user><img src=images/money.gif> <b>14.14LN</font></b><font class=items><br>',14.14,'0','0','','Гигантская.<br>Пропадёт через 2д&nbsp;20ч&nbsp;48м&nbsp;1с','','','',0,0,0,0,''
+,'0','7','','<font class=timef>Масса: <b>7</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="38">
+<TBODY sizcache="1" sizset="38">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>14.14LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but>Гигантская.<BR>Пропадёт через 2д&nbsp;20ч&nbsp;48м&nbsp;1с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Щука</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/11.gif"> 
+<DIV id=fish/11_1_14.14_ class=time>7 шт.</DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>7</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE>
+<TABLE border=0 width="100%" sizcache="1" sizset="39">
+<TBODY sizcache="1" sizset="39">
+<TR nodeIndex="1">
+<TD>
+<TD><INPUT class=inv_but onclick="peredat('7964095','Щука')" value=Передать type=button></TD>
+<TD><INPUT class=inv_but onclick="sellingform('7964095','Щука')" value=Продать type=button></TD>
+<TD><INPUT class=inv_but onclick="conf_sale('main.php?lavkasdat=7964095')" value="Сдать за 14" type=button></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=7964095')" value="Сдать клану" type=button></TD></TD>
+<TD width="50%" align=right><IMG style="CURSOR: pointer" title=Выкинуть onclick="conf('main.php?drop=7964095')" src="http://195.242.161.132/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR nodeIndex="2" sizcache="1" sizset="40">
+<TD class=weapons_box align=left sizcache="1" sizset="40">
+<SCRIPT>
+show_w ('Маскинонг','1','fish/18','1','1','<font class=user><img src=images/money.gif> <b>14.14LN</font></b><font class=items><br>',14.14,'0','0','','Гигантская.<br>Пропадёт через 3д&nbsp;23ч&nbsp;32м&nbsp;31с','','','',0,0,0,0,''
+,'0','7','','<font class=timef>Масса: <b>7</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="40">
+<TBODY sizcache="1" sizset="40">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>14.14LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but>Гигантская.<BR>Пропадёт через 3д&nbsp;23ч&nbsp;32м&nbsp;31с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Маскинонг</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/18.gif"> 
+<DIV id=fish/18_1_14.14_ class=time></DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>7</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE>
+<TABLE border=0 width="100%" sizcache="1" sizset="41">
+<TBODY sizcache="1" sizset="41">
+<TR nodeIndex="1">
+<TD>
+<TD><INPUT class=inv_but onclick="peredat('7972392','Маскинонг')" value=Передать type=button></TD>
+<TD><INPUT class=inv_but onclick="sellingform('7972392','Маскинонг')" value=Продать type=button></TD>
+<TD><INPUT class=inv_but onclick="conf_sale('main.php?lavkasdat=7972392')" value="Сдать за 14" type=button></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=7972392')" value="Сдать клану" type=button></TD></TD>
+<TD width="50%" align=right><IMG style="CURSOR: pointer" title=Выкинуть onclick="conf('main.php?drop=7972392')" src="http://195.242.161.132/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR nodeIndex="3" sizcache="1" sizset="43">
+<TD class=weapons_box align=left sizcache="1" sizset="43">
+<SCRIPT>
+show_w ('Щука','1','fish/11','1','1','<font class=user><img src=images/money.gif> <b>13.81LN</font></b><font class=items><br>',13.81,'0','0','','Огромная.<br>Пропадёт через 2д&nbsp;22ч&nbsp;7м&nbsp;3с','','','',0,0,0,0,''
+,'0','6','','<font class=timef>Масса: <b>6</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="43">
+<TBODY sizcache="1" sizset="43">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>13.81LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but>Огромная.<BR>Пропадёт через 2д&nbsp;22ч&nbsp;7м&nbsp;3с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Щука</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/11.gif"> 
+<DIV id=fish/11_1_13.81_ class=time>6 шт.</DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>6</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE>
+<TABLE border=0 width="100%" sizcache="1" sizset="44">
+<TBODY sizcache="1" sizset="44">
+<TR nodeIndex="1">
+<TD>
+<TD><INPUT class=inv_but onclick="peredat('7964688','Щука')" value=Передать type=button></TD>
+<TD><INPUT class=inv_but onclick="sellingform('7964688','Щука')" value=Продать type=button></TD>
+<TD><INPUT class=inv_but onclick="conf_sale('main.php?lavkasdat=7964688')" value="Сдать за 13.67" type=button></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=7964688')" value="Сдать клану" type=button></TD></TD>
+<TD width="50%" align=right><IMG style="CURSOR: pointer" title=Выкинуть onclick="conf('main.php?drop=7964688')" src="http://195.242.161.132/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR nodeIndex="4" sizcache="1" sizset="45">
+<TD class=weapons_box align=left sizcache="1" sizset="45">
+<SCRIPT>
+show_w ('Маскинонг','1','fish/18','1','1','<font class=user><img src=images/money.gif> <b>13.81LN</font></b><font class=items><br>',13.81,'0','0','','Огромная.<br>Пропадёт через 2д&nbsp;20ч&nbsp;48м&nbsp;1с','','','',0,0,0,0,''
+,'0','6','','<font class=timef>Масса: <b>6</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="45">
+<TBODY sizcache="1" sizset="45">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>13.81LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but>Огромная.<BR>Пропадёт через 2д&nbsp;20ч&nbsp;48м&nbsp;1с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Маскинонг</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/18.gif"> 
+<DIV id=fish/18_1_13.81_ class=time>3 шт.</DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>6</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE>
+<TABLE border=0 width="100%" sizcache="1" sizset="46">
+<TBODY sizcache="1" sizset="46">
+<TR nodeIndex="1">
+<TD>
+<TD><INPUT class=inv_but onclick="peredat('7964096','Маскинонг')" value=Передать type=button></TD>
+<TD><INPUT class=inv_but onclick="sellingform('7964096','Маскинонг')" value=Продать type=button></TD>
+<TD><INPUT class=inv_but onclick="conf_sale('main.php?lavkasdat=7964096')" value="Сдать за 13.67" type=button></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=7964096')" value="Сдать клану" type=button></TD></TD>
+<TD width="50%" align=right><IMG style="CURSOR: pointer" title=Выкинуть onclick="conf('main.php?drop=7964096')" src="http://195.242.161.132/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR nodeIndex="5" sizcache="1" sizset="48">
+<TD class=weapons_box align=left sizcache="1" sizset="48">
+<SCRIPT>
+show_w ('Маскинонг','1','fish/18','1','1','<font class=user><img src=images/money.gif> <b>13.46LN</font></b><font class=items><br>',13.46,'0','0','','Большая.<br>Пропадёт через 3д&nbsp;19ч&nbsp;25м&nbsp;33с','','','',0,0,0,0,''
+,'0','5','','<font class=timef>Масса: <b>5</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="48">
+<TBODY sizcache="1" sizset="48">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>13.46LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but>Большая.<BR>Пропадёт через 3д&nbsp;19ч&nbsp;25м&nbsp;33с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Маскинонг</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/18.gif"> 
+<DIV id=fish/18_1_13.46_ class=time>3 шт.</DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>5</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE>
+<TABLE border=0 width="100%" sizcache="1" sizset="49">
+<TBODY sizcache="1" sizset="49">
+<TR nodeIndex="1">
+<TD>
+<TD><INPUT class=inv_but onclick="peredat('7970817','Маскинонг')" value=Передать type=button></TD>
+<TD><INPUT class=inv_but onclick="sellingform('7970817','Маскинонг')" value=Продать type=button></TD>
+<TD><INPUT class=inv_but onclick="conf_sale('main.php?lavkasdat=7970817')" value="Сдать за 13.33" type=button></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=7970817')" value="Сдать клану" type=button></TD></TD>
+<TD width="50%" align=right><IMG style="CURSOR: pointer" title=Выкинуть onclick="conf('main.php?drop=7970817')" src="http://195.242.161.132/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR nodeIndex="6" sizcache="1" sizset="50">
+<TD class=weapons_box align=left sizcache="1" sizset="50">
+<SCRIPT>
+show_w ('Щука','1','fish/11','1','1','<font class=user><img src=images/money.gif> <b>13.46LN</font></b><font class=items><br>',13.46,'0','0','','Большая.<br>Пропадёт через 2д&nbsp;22ч&nbsp;22м&nbsp;33с','','','',0,0,0,0,''
+,'0','5','','<font class=timef>Масса: <b>5</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="50">
+<TBODY sizcache="1" sizset="50">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>13.46LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but>Большая.<BR>Пропадёт через 2д&nbsp;22ч&nbsp;22м&nbsp;33с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Щука</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/11.gif"> 
+<DIV id=fish/11_1_13.46_ class=time>2 шт.</DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>5</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE>
+<TABLE border=0 width="100%" sizcache="1" sizset="51">
+<TBODY sizcache="1" sizset="51">
+<TR nodeIndex="1">
+<TD>
+<TD><INPUT class=inv_but onclick="peredat('7965007','Щука')" value=Передать type=button></TD>
+<TD><INPUT class=inv_but onclick="sellingform('7965007','Щука')" value=Продать type=button></TD>
+<TD><INPUT class=inv_but onclick="conf_sale('main.php?lavkasdat=7965007')" value="Сдать за 13.33" type=button></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=7965007')" value="Сдать клану" type=button></TD></TD>
+<TD width="50%" align=right><IMG style="CURSOR: pointer" title=Выкинуть onclick="conf('main.php?drop=7965007')" src="http://195.242.161.132/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR nodeIndex="7" sizcache="1" sizset="53">
+<TD class=weapons_box align=left sizcache="1" sizset="53">
+<SCRIPT>
+show_w ('Щука','1','fish/11','1','1','<font class=user><img src=images/money.gif> <b>13.05LN</font></b><font class=items><br>',13.05,'0','0','','Средняя.<br>Пропадёт через 2д&nbsp;22ч&nbsp;10м&nbsp;56с','','','',0,0,0,0,''
+,'0','4','','<font class=timef>Масса: <b>4</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="53">
+<TBODY sizcache="1" sizset="53">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>13.05LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but>Средняя.<BR>Пропадёт через 2д&nbsp;22ч&nbsp;10м&nbsp;56с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Щука</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/11.gif"> 
+<DIV id=fish/11_1_13.05_ class=time>5 шт.</DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>4</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE>
+<TABLE border=0 width="100%" sizcache="1" sizset="54">
+<TBODY sizcache="1" sizset="54">
+<TR nodeIndex="1">
+<TD>
+<TD><INPUT class=inv_but onclick="peredat('7964881','Щука')" value=Передать type=button></TD>
+<TD><INPUT class=inv_but onclick="sellingform('7964881','Щука')" value=Продать type=button></TD>
+<TD><INPUT class=inv_but onclick="conf_sale('main.php?lavkasdat=7964881')" value="Сдать за 12.92" type=button></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=7964881')" value="Сдать клану" type=button></TD></TD>
+<TD width="50%" align=right><IMG style="CURSOR: pointer" title=Выкинуть onclick="conf('main.php?drop=7964881')" src="http://195.242.161.132/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR nodeIndex="8" sizcache="1" sizset="55">
+<TD class=weapons_box align=left sizcache="1" sizset="55">
+<SCRIPT>
+show_w ('Маскинонг','1','fish/18','1','1','<font class=user><img src=images/money.gif> <b>13.05LN</font></b><font class=items><br>',13.05,'0','0','','Средняя.<br>Пропадёт через 3д&nbsp;23ч&nbsp;36м&nbsp;35с','','','',0,0,0,0,''
+,'0','4','','<font class=timef>Масса: <b>4</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="55">
+<TBODY sizcache="1" sizset="55">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>13.05LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but>Средняя.<BR>Пропадёт через 3д&nbsp;23ч&nbsp;36м&nbsp;35с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Маскинонг</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/18.gif"> 
+<DIV id=fish/18_1_13.05_ class=time></DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>4</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE>
+<TABLE border=0 width="100%" sizcache="1" sizset="56">
+<TBODY sizcache="1" sizset="56">
+<TR nodeIndex="1">
+<TD>
+<TD><INPUT class=inv_but onclick="peredat('7972408','Маскинонг')" value=Передать type=button></TD>
+<TD><INPUT class=inv_but onclick="sellingform('7972408','Маскинонг')" value=Продать type=button></TD>
+<TD><INPUT class=inv_but onclick="conf_sale('main.php?lavkasdat=7972408')" value="Сдать за 12.92" type=button></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=7972408')" value="Сдать клану" type=button></TD></TD>
+<TD width="50%" align=right><IMG style="CURSOR: pointer" title=Выкинуть onclick="conf('main.php?drop=7972408')" src="http://195.242.161.132/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR nodeIndex="9" sizcache="1" sizset="58">
+<TD class=weapons_box align=left sizcache="1" sizset="58">
+<SCRIPT>
+show_w ('Маскинонг','1','fish/18','1','1','<font class=user><img src=images/money.gif> <b>12.57LN</font></b><font class=items><br>',12.57,'0','0','','Малая.<br>Пропадёт через 2д&nbsp;22ч&nbsp;14м&nbsp;48с','','','',0,0,0,0,''
+,'0','3','','<font class=timef>Масса: <b>3</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="58">
+<TBODY sizcache="1" sizset="58">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>12.57LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but>Малая.<BR>Пропадёт через 2д&nbsp;22ч&nbsp;14м&nbsp;48с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Маскинонг</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/18.gif"> 
+<DIV id=fish/18_1_12.57_ class=time>7 шт.</DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>3</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE>
+<TABLE border=0 width="100%" sizcache="1" sizset="59">
+<TBODY sizcache="1" sizset="59">
+<TR nodeIndex="1">
+<TD>
+<TD><INPUT class=inv_but onclick="peredat('7964919','Маскинонг')" value=Передать type=button></TD>
+<TD><INPUT class=inv_but onclick="sellingform('7964919','Маскинонг')" value=Продать type=button></TD>
+<TD><INPUT class=inv_but onclick="conf_sale('main.php?lavkasdat=7964919')" value="Сдать за 12.44" type=button></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=7964919')" value="Сдать клану" type=button></TD></TD>
+<TD width="50%" align=right><IMG style="CURSOR: pointer" title=Выкинуть onclick="conf('main.php?drop=7964919')" src="http://195.242.161.132/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR nodeIndex="10" sizcache="1" sizset="60">
+<TD class=weapons_box align=left sizcache="1" sizset="60">
+<SCRIPT>
+show_w ('Щука','1','fish/11','1','1','<font class=user><img src=images/money.gif> <b>12.57LN</font></b><font class=items><br>',12.57,'0','0','','Малая.<br>Пропадёт через 2д&nbsp;21ч&nbsp;34м&nbsp;21с','','','',0,0,0,0,''
+,'0','3','','<font class=timef>Масса: <b>3</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="60">
+<TBODY sizcache="1" sizset="60">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>12.57LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but>Малая.<BR>Пропадёт через 2д&nbsp;21ч&nbsp;34м&nbsp;21с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Щука</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/11.gif"> 
+<DIV id=fish/11_1_12.57_ class=time>6 шт.</DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>3</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE>
+<TABLE border=0 width="100%" sizcache="1" sizset="61">
+<TBODY sizcache="1" sizset="61">
+<TR nodeIndex="1">
+<TD>
+<TD><INPUT class=inv_but onclick="peredat('7964406','Щука')" value=Передать type=button></TD>
+<TD><INPUT class=inv_but onclick="sellingform('7964406','Щука')" value=Продать type=button></TD>
+<TD><INPUT class=inv_but onclick="conf_sale('main.php?lavkasdat=7964406')" value="Сдать за 12.44" type=button></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=7964406')" value="Сдать клану" type=button></TD></TD>
+<TD width="50%" align=right><IMG style="CURSOR: pointer" title=Выкинуть onclick="conf('main.php?drop=7964406')" src="http://195.242.161.132/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR nodeIndex="11" sizcache="1" sizset="63">
+<TD class=weapons_box align=left sizcache="1" sizset="63">
+<SCRIPT>
+show_w ('Щука','1','fish/11','1','1','<font class=user><img src=images/money.gif> <b>11.94LN</font></b><font class=items><br>',11.94,'0','0','','Подросший малёк.<br>Пропадёт через 3д&nbsp;20ч&nbsp;18м&nbsp;47с','','','',0,0,0,0,''
+,'0','2','','<font class=timef>Масса: <b>2</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="63">
+<TBODY sizcache="1" sizset="63">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>11.94LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but>Подросший малёк.<BR>Пропадёт через 3д&nbsp;20ч&nbsp;18м&nbsp;47с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Щука</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/11.gif"> 
+<DIV id=fish/11_1_11.94_ class=time>4 шт.</DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>2</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE>
+<TABLE border=0 width="100%" sizcache="1" sizset="64">
+<TBODY sizcache="1" sizset="64">
+<TR nodeIndex="1">
+<TD>
+<TD><INPUT class=inv_but onclick="peredat('7971361','Щука')" value=Передать type=button></TD>
+<TD><INPUT class=inv_but onclick="sellingform('7971361','Щука')" value=Продать type=button></TD>
+<TD><INPUT class=inv_but onclick="conf_sale('main.php?lavkasdat=7971361')" value="Сдать за 11.82" type=button></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=7971361')" value="Сдать клану" type=button></TD></TD>
+<TD width="50%" align=right><IMG style="CURSOR: pointer" title=Выкинуть onclick="conf('main.php?drop=7971361')" src="http://195.242.161.132/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR nodeIndex="12" sizcache="1" sizset="65">
+<TD class=weapons_box align=left sizcache="1" sizset="65">
+<SCRIPT>
+show_w ('Маскинонг','1','fish/18','1','1','<font class=user><img src=images/money.gif> <b>11.94LN</font></b><font class=items><br>',11.94,'0','0','','Подросший малёк.<br>Пропадёт через 2д&nbsp;22ч&nbsp;38м&nbsp;15с','','','',0,0,0,0,''
+,'0','2','','<font class=timef>Масса: <b>2</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="65">
+<TBODY sizcache="1" sizset="65">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>11.94LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but>Подросший малёк.<BR>Пропадёт через 2д&nbsp;22ч&nbsp;38м&nbsp;15с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Маскинонг</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/18.gif"> 
+<DIV id=fish/18_1_11.94_ class=time>4 шт.</DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>2</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE>
+<TABLE border=0 width="100%" sizcache="1" sizset="66">
+<TBODY sizcache="1" sizset="66">
+<TR nodeIndex="1">
+<TD>
+<TD><INPUT class=inv_but onclick="peredat('7965198','Маскинонг')" value=Передать type=button></TD>
+<TD><INPUT class=inv_but onclick="sellingform('7965198','Маскинонг')" value=Продать type=button></TD>
+<TD><INPUT class=inv_but onclick="conf_sale('main.php?lavkasdat=7965198')" value="Сдать за 11.82" type=button></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=7965198')" value="Сдать клану" type=button></TD></TD>
+<TD width="50%" align=right><IMG style="CURSOR: pointer" title=Выкинуть onclick="conf('main.php?drop=7965198')" src="http://195.242.161.132/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR nodeIndex="13" sizcache="1" sizset="68">
+<TD class=weapons_box align=left sizcache="1" sizset="68">
+<SCRIPT>
+show_w ('Маскинонг','1','fish/18','1','1','<font class=user><img src=images/money.gif> <b>10.43LN</font></b><font class=items><br>',10.43,'0','0','','Малёк.<br>Пропадёт через 2д&nbsp;21ч&nbsp;26м&nbsp;27с','','','',0,0,0,0,''
+,'0','1','','<font class=timef>Масса: <b>1</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="68">
+<TBODY sizcache="1" sizset="68">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>10.43LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but>Малёк.<BR>Пропадёт через 2д&nbsp;21ч&nbsp;26м&nbsp;27с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Маскинонг</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/18.gif"> 
+<DIV id=fish/18_1_10.43_ class=time>6 шт.</DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>1</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE>
+<TABLE border=0 width="100%" sizcache="1" sizset="69">
+<TBODY sizcache="1" sizset="69">
+<TR nodeIndex="1">
+<TD>
+<TD><INPUT class=inv_but onclick="peredat('7964359','Маскинонг')" value=Передать type=button></TD>
+<TD><INPUT class=inv_but onclick="sellingform('7964359','Маскинонг')" value=Продать type=button></TD>
+<TD><INPUT class=inv_but onclick="conf_sale('main.php?lavkasdat=7964359')" value="Сдать за 10.33" type=button></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=7964359')" value="Сдать клану" type=button></TD></TD>
+<TD width="50%" align=right><IMG style="CURSOR: pointer" title=Выкинуть onclick="conf('main.php?drop=7964359')" src="http://195.242.161.132/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR nodeIndex="14" sizcache="1" sizset="70">
+<TD class=weapons_box align=left sizcache="1" sizset="70">
+<SCRIPT>
+show_w ('Щука','1','fish/11','1','1','<font class=user><img src=images/money.gif> <b>10.43LN</font></b><font class=items><br>',10.43,'0','0','','Малёк.<br>Пропадёт через 2д&nbsp;21ч&nbsp;46с','','','',0,0,0,0,''
+,'0','1','','<font class=timef>Масса: <b>1</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="70">
+<TBODY sizcache="1" sizset="70">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>10.43LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but>Малёк.<BR>Пропадёт через 2д&nbsp;21ч&nbsp;46с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Щука</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/11.gif"> 
+<DIV id=fish/11_1_10.43_ class=time>3 шт.</DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>1</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE>
+<TABLE border=0 width="100%" sizcache="1" sizset="71">
+<TBODY sizcache="1" sizset="71">
+<TR nodeIndex="1">
+<TD>
+<TD><INPUT class=inv_but onclick="peredat('7964177','Щука')" value=Передать type=button></TD>
+<TD><INPUT class=inv_but onclick="sellingform('7964177','Щука')" value=Продать type=button></TD>
+<TD><INPUT class=inv_but onclick="conf_sale('main.php?lavkasdat=7964177')" value="Сдать за 10.33" type=button></TD>
+<TD><INPUT class=inv_but title="Сдать клану" onclick="confc('main.php?to_clan=7964177')" value="Сдать клану" type=button></TD></TD>
+<TD width="50%" align=right><IMG style="CURSOR: pointer" title=Выкинуть onclick="conf('main.php?drop=7964177')" src="http://195.242.161.132/images/icons/delete.png"></TD></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></CENTER></FONT></TD></TR></TBODY></TABLE>
+<SCRIPT>view_auras('');</SCRIPT>
+
+<SCRIPT src="js/c.js"></SCRIPT>
+
+<DIV align=right><A href="http://www.liveinternet.ru/click" target=_blank><IMG title="LiveInternet: показано число посетителей за сегодня" alt="" src="http://counter.yadro.ru/hit?t26.5;rhttp%3A//195.242.161.132/game.php;s1024*768*32;uhttp%3A//195.242.161.132/main.php;0.8674367744938465" width=88 height=15></A><BR><A href="http://top.mail.ru/jump?from=1207359" target=_top><IMG alt=Рейтинг@Mail.ru src="http://dc.c6.b2.a1.top.list.ru/counter?id=1207359;t=109;js=13;j=true;s=1024*768;d=32;rand=0.4783851805322549" width=88 height=18></A></DIV>
+<SCRIPT>$(".LinedTable tr:nth-child(odd)").css("background-color","#ECECEC");</SCRIPT>
+<!-- Yandex.Metrika -->
+<SCRIPT type=text/javascript src="//mc.yandex.ru/resource/watch.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+try { var yaCounter184038 = new Ya.Metrika(184038); } catch(e){}
+</SCRIPT>
+<NOSCRIPT></NOSCRIPT><!-- Yandex.Metrika -->

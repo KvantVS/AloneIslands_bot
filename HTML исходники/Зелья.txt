@@ -1,0 +1,152 @@
+<META Http-Equiv=Content-Type Content="text/html; charset=windows-1251">
+<META Http-Equiv=Cache-Control Content=No-Cache>
+<META Http-Equiv=Pragma Content=No-Cache>
+<META Http-Equiv=Expires Content=0>
+<center class=return_win>
+<META HTTP-EQUIV="Page-Enter" CONTENT="BlendTrans(Duration=0.1)"></font></center><script type="text/javascript" src="js/newup.js?z123"></script><script>var images='images';show_head('1','','onclick=\"top.goloc(\'\',\'88b6871d780b4fd8b4ba8b2e065b63a7\')\"',0,1,3);</script><!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="ie6.css" />
+<![endif]--><script type="text/javascript" src="js/inv.js"></script>
+
+<div id=inf_from_php style='visibility:hidden;position:absolute;top:0px;height:0;'>
+
+<center class=timef width=100%>
+
+Масса вещей: [421/260] из 59 ваших вещей. <font class=hp>Вы перегружены!</font>
+
+<br>
+
+<font class=items>
+
+<a href=main.php?snall=all class=timef>Снять всё</a> | 
+
+<a href=main.php?inv=weapons class=timef>Вещи</a> | 
+
+<a href=main.php?inv=presents class=timef>Подарки</a> | 
+
+<a href=main.php?inv=cat3 class=timef>Комплекты</a> | 
+
+<a href=main.php?inv=cat4 class=timef>Сборка предметов</a>
+
+
+ <br> <a href=main.php?filter_f5=price class=timef>Сортировать по цене</a> | <a href=main.php?filter_f5=level class=timef>Сортировать по уровню</a> 
+
+<script>
+
+function ssubm()
+
+{
+
+	document.sort.submit();
+
+}
+
+</script>
+
+<form name=sort method=get> 
+
+<select size="1" name="filter_f6" class="items" onchange="ssubm()">
+
+<option selected value=1>
+
+Группировать</option>
+
+<option  value=2>
+
+Не группировать</option>
+
+</select> <select size="1" name="filter_f4" class="items" onchange="ssubm()">
+
+<option  value="all">Все</option>
+
+<option  value="shlem">Шлемы</option>
+
+<option  value="ojerelie">Кулоны</option>
+
+<option  value="orujie">Оружия</option>
+
+<option  value="poyas">Пояса</option>
+
+<option  value="zelie">Зелья/камни</option>
+
+<option  value="sapogi">Сапоги</option>
+
+<option  value="naruchi">Наручи</option>
+
+<option  value="perchatki">Перчатки</option>
+
+<option  value="kolco">Кольца</option>
+
+<option  value="bronya">Брони</option>
+
+<option  value="napad">Свитки нападения</option>
+
+<option  value="zakl">Свитки заклинания</option>
+
+<option  value="kam">Зелья восстановления</option>
+
+<option selected value="potion">Зелья алхимические</option>
+
+<option  value="herbal">Растения</option>
+
+<option  value="fishing">Рыболовные снасти</option>
+
+<option  value="fish">Рыба</option>
+
+<option  value="resources">Ресурсы</option>
+
+<option  value="rune">Руны</option>
+
+<option  value="teleport">Телепорт</option>
+
+</select></form>
+</center>
+
+<center><table border=2 width=98% cellspacing=2 cellpadding=2 bordercolorlight=#C0C0C0 bordercolordark=#FFFFFF><tr><td align=left class=weapons_box><script>
+show_w ('Зелье атлета','1','potions/20','1','7','<font class=user><img src=images/money.gif> <b>20LN</font></b><font class=items><br>',20,'0','0','','Здоровье <b>+6</b><br>Время действия 1ч&nbsp;54м&nbsp;41с','','','',0,0,0,0,''
+,'0','1','6881|s4|34','<font class=timef>Масса:<b>1</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</script><table border=0 width=100%><tr><td><td><input type=button class=inv_but value=Использовать onclick="potion('6296134','Зелье атлета')"></td><td><input type=button class=inv_but value=Передать onclick="peredat('6296134','Зелье атлета')"></td><td><input type=button class=inv_but value='Продать' onclick="sellingform('6296134','Зелье атлета')" ></td><td><input type=button class=inv_but value='Сдать клану' onclick="confc('main.php?to_clan=6296134')" title='Сдать клану'></td></td><td align=right width=50%><img src=images/icons/delete.png onclick="conf('main.php?drop=6296134')" title='Выкинуть' style='cursor:pointer'></td></td></tr></table></td></tr><tr><td align=left class=weapons_box><script>
+show_w ('Зелье неуловимости','1','potions/8','3','7','<font class=user><img src=images/money.gif> <b>20LN</font></b><font class=items><br>',20,'0','0','','Уловка <b>+160</b><br>Время действия 1ч&nbsp;18м&nbsp;26с','','','',0,0,0,0,''
+,'0','1','4706|mf2|160','<font class=timef>Масса:<b>1</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</script><table border=0 width=100%><tr><td><td><input type=button class=inv_but value=Использовать onclick="potion('6111791','Зелье неуловимости')"></td><td><input type=button class=inv_but value=Передать onclick="peredat('6111791','Зелье неуловимости')"></td><td><input type=button class=inv_but value='Продать' onclick="sellingform('6111791','Зелье неуловимости')" ></td><td><input type=button class=inv_but value='Сдать клану' onclick="confc('main.php?to_clan=6111791')" title='Сдать клану'></td></td><td align=right width=50%><img src=images/icons/delete.png onclick="conf('main.php?drop=6111791')" title='Выкинуть' style='cursor:pointer'></td></td></tr></table></td></tr><tr><td align=left class=weapons_box><script>
+show_w ('Зелье реакции','1','potions/2','7','7','<font class=user><img src=images/money.gif> <b>20LN</font></b><font class=items><br>',20,'0','0','','Реакция <b>+12</b><br>Время действия 1ч&nbsp;18м&nbsp;28с','','','',0,0,0,0,''
+,'0','1','4708|s2|12','<font class=timef>Масса:<b>1</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</script><table border=0 width=100%><tr><td><td><input type=button class=inv_but value=Использовать onclick="potion('6126998','Зелье реакции')"></td><td><input type=button class=inv_but value=Передать onclick="peredat('6126998','Зелье реакции')"></td><td><input type=button class=inv_but value='Продать' onclick="sellingform('6126998','Зелье реакции')" ></td><td><input type=button class=inv_but value='Сдать клану' onclick="confc('main.php?to_clan=6126998')" title='Сдать клану'></td></td><td align=right width=50%><img src=images/icons/delete.png onclick="conf('main.php?drop=6126998')" title='Выкинуть' style='cursor:pointer'></td></td></tr></table></td></tr><tr><td align=left class=weapons_box><script>
+show_w ('Зелье горца','1','potions/18','7','7','<font class=user><img src=images/money.gif> <b>20LN</font></b><font class=items><br>',20,'0','0','','Реакция +<b>31%</b><br>Удача +<b>31%</b><br>Уловка +<b>31%</b><br>Сокрушение +<b>31%</b><br>Время действия 1ч&nbsp;18м&nbsp;28с','','','',0,0,0,0,''
+,'0','1','4708||31','<font class=timef>Масса:<b>1</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</script><table border=0 width=100%><tr><td><td><input type=button class=inv_but value=Использовать onclick="potion('6127070','Зелье горца')"></td><td><input type=button class=inv_but value=Передать onclick="peredat('6127070','Зелье горца')"></td><td><input type=button class=inv_but value='Продать' onclick="sellingform('6127070','Зелье горца')" ></td><td><input type=button class=inv_but value='Сдать клану' onclick="confc('main.php?to_clan=6127070')" title='Сдать клану'></td></td><td align=right width=50%><img src=images/icons/delete.png onclick="conf('main.php?drop=6127070')" title='Выкинуть' style='cursor:pointer'></td></td></tr></table></td></tr><tr><td align=left class=weapons_box><script>
+show_w ('Зелье атлета','1','potions/20','7','7','<font class=user><img src=images/money.gif> <b>20LN</font></b><font class=items><br>',20,'0','0','','Здоровье <b>+6</b><br>Время действия 1ч&nbsp;54м&nbsp;42с','','','',0,0,0,0,''
+,'0','1','6882|s4|34','<font class=timef>Масса:<b>1</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</script><table border=0 width=100%><tr><td><td><input type=button class=inv_but value=Использовать onclick="potion('6298828','Зелье атлета')"></td><td><input type=button class=inv_but value=Передать onclick="peredat('6298828','Зелье атлета')"></td><td><input type=button class=inv_but value='Продать' onclick="sellingform('6298828','Зелье атлета')" ></td><td><input type=button class=inv_but value='Сдать клану' onclick="confc('main.php?to_clan=6298828')" title='Сдать клану'></td></td><td align=right width=50%><img src=images/icons/delete.png onclick="conf('main.php?drop=6298828')" title='Выкинуть' style='cursor:pointer'></td></td></tr></table></td></tr><tr><td align=left class=weapons_box><script>
+
+
+
+<FORM action=main.php method=post>
+<INPUT type=hidden value=6285338 name=potion><B>Выпить "Зелье восстановления"?</B><BR>
+<INPUT class=login style="WIDTH: 100%" type=submit value=OK>
+</FORM>
+
+main.php?potion=6285338
+
+show_w ('Зелье восстановления','1','potions/21','6','7','<font class=user><img src=images/money.gif> <b>20LN</font></b><font class=items><br>',20,'0','0','','Усталость -<b>66</b><br>Время действия 1с','','','',0,0,0,0,''
+,'0','1','1||66','<font class=timef>Масса:<b>1</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</script><table border=0 width=100%><tr><td><td><input type=button class=inv_but value=Использовать onclick="potion('6285338','Зелье восстановления')"></td><td><input type=button class=inv_but value=Передать onclick="peredat('6285338','Зелье восстановления')"></td><td><input type=button class=inv_but value='Продать' onclick="sellingform('6285338','Зелье восстановления')" ></td><td><input type=button class=inv_but value='Сдать клану' onclick="confc('main.php?to_clan=6285338')" title='Сдать клану'></td></td><td align=right width=50%><img src=images/icons/delete.png onclick="conf('main.php?drop=6285338')" title='Выкинуть' style='cursor:pointer'></td></td></tr></table></td></tr><tr><td align=left class=weapons_box><script>
+
+
+show_w ('Зелье реакции','1','potions/2','1','6','<font class=user><img src=images/money.gif> <b>19LN</font></b><font class=items><br>',19,'0','0','','Реакция <b>+10</b><br>Время действия 1ч&nbsp;5м&nbsp;54с','','','',0,0,0,0,''
+,'0','1','3954|s2|10','<font class=timef>Масса:<b>1</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</script><table border=0 width=100%><tr><td><td><input type=button class=inv_but value=Использовать onclick="potion('6100871','Зелье реакции')"></td><td><input type=button class=inv_but value=Передать onclick="peredat('6100871','Зелье реакции')"></td><td><input type=button class=inv_but value='Продать' onclick="sellingform('6100871','Зелье реакции')" ></td><td><input type=button class=inv_but value='Сдать клану' onclick="confc('main.php?to_clan=6100871')" title='Сдать клану'></td></td><td align=right width=50%><img src=images/icons/delete.png onclick="conf('main.php?drop=6100871')" title='Выкинуть' style='cursor:pointer'></td></td></tr></table></td></tr><tr><td align=left class=weapons_box><script>
+show_w ('Зелье резких ударов','1','potions/6','5','5','<font class=user><img src=images/money.gif> <b>19LN</font></b><font class=items><br>',19,'0','0','','Удар <b>+14</b><br>Время действия 1ч&nbsp;30с','','','',0,0,0,0,''
+,'0','1','3630|udmax|14','<font class=timef>Масса:<b>1</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</script><table border=0 width=100%><tr><td><td><input type=button class=inv_but value=Использовать onclick="potion('5846951','Зелье резких ударов')"></td><td><input type=button class=inv_but value=Передать onclick="peredat('5846951','Зелье резких ударов')"></td><td><input type=button class=inv_but value='Продать' onclick="sellingform('5846951','Зелье резких ударов')" ></td><td><input type=button class=inv_but value='Сдать клану' onclick="confc('main.php?to_clan=5846951')" title='Сдать клану'></td></td><td align=right width=50%><img src=images/icons/delete.png onclick="conf('main.php?drop=5846951')" title='Выкинуть' style='cursor:pointer'></td></td></tr></table></td></tr><tr><td align=left class=weapons_box><script>
+show_w ('Зелье реакции','1','potions/2','6','6','<font class=user><img src=images/money.gif> <b>19LN</font></b><font class=items><br>',19,'0','0','','Реакция <b>+10</b><br>Время действия 1ч&nbsp;5м&nbsp;54с','','','',0,0,0,0,''
+,'0','1','3954|s2|10','<font class=timef>Масса:<b>1</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</script><table border=0 width=100%><tr><td><td><input type=button class=inv_but value=Использовать onclick="potion('6100985','Зелье реакции')"></td><td><input type=button class=inv_but value=Передать onclick="peredat('6100985','Зелье реакции')"></td><td><input type=button class=inv_but value='Продать' onclick="sellingform('6100985','Зелье реакции')" ></td><td><input type=button class=inv_but value='Сдать клану' onclick="confc('main.php?to_clan=6100985')" title='Сдать клану'></td></td><td align=right width=50%><img src=images/icons/delete.png onclick="conf('main.php?drop=6100985')" title='Выкинуть' style='cursor:pointer'></td></td></tr></table></td></tr><tr><td align=left class=weapons_box><script>
+show_w ('Зелье резких ударов','1','potions/6','4','6','<font class=user><img src=images/money.gif> <b>19LN</font></b><font class=items><br>',19,'0','0','','Удар <b>+15</b><br>Время действия 1ч&nbsp;5м&nbsp;54с','','','',0,0,0,0,''
+,'0','1','3954|udmax|15','<font class=timef>Масса:<b>1</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</script><table border=0 width=100%><tr><td><td><input type=button class=inv_but value=Использовать onclick="potion('6100673','Зелье резких ударов')"></td><td><input type=button class=inv_but value=Передать onclick="peredat('6100673','Зелье резких ударов')"></td><td><input type=button class=inv_but value='Продать' onclick="sellingform('6100673','Зелье резких ударов')" ></td><td><input type=button class=inv_but value='Сдать клану' onclick="confc('main.php?to_clan=6100673')" title='Сдать клану'></td></td><td align=right width=50%><img src=images/icons/delete.png onclick="conf('main.php?drop=6100673')" title='Выкинуть' style='cursor:pointer'></td></td></tr></table></td></tr></table></center>
+
+</font>
+
+</div>
+
+
+
+
+
+<script>var DecreaseDamage = 46;build_pers('12_24','6085106|<b><i>Шлем&nbsp;рассуждения</b></i>@<b>138 LN</b>@Класс брони: <B>+4</B>@Жизнь: <B>+10</B>@Долговечность:&nbsp;<B>100/100</B>@','w_kyl_1','6085505|<b><i>Всевидящий&nbsp;амулет</b></i>@<b>128 LN</b>@Долговечность:&nbsp;<B>90/90</B>@','218_436','5791935|<b><i>Нож&nbsp;достоинства</b></i>@<b>99 LN</b>@Жизнь: <B>+20</B>@Удар: <B>10-15</B>@Долговечность:&nbsp;<B>90/90</B>@','w_poy_7','6084772|<b><i>Золотой&nbsp;пояс</b></i>@<b>133 LN</b>@Класс брони: <B>+4</B>@Жизнь: <B>+15</B>@Долговечность:&nbsp;<B>90/90</B>@','slots/pob5','0','slots/pob6','0','slots/pob7','0','sapogigdkd','5919629|<b><i>Сапоги&nbsp;обезумевшего&nbsp;бойца</b></i>@<b>105 LN</b>@Класс брони: <B>+4</B>@Долговечность:&nbsp;<B>100/100</B>@','394_788','6084745|<b><i>Наручи&nbsp;пронзительного&nbsp;удара</b></i>@<b>118 LN</b>@Класс брони: <B>+3</B>@Удар: <B>1-3</B>@Долговечность:&nbsp;<B>100/100</B>@','343_686','6084785|<b><i>Перчатки&nbsp;неуловимого&nbsp;вора</b></i>@<b>121 LN</b>@Класс брони: <B>+4</B>@Долговечность:&nbsp;<B>90/90</B>@','fishing_noob','6302791|<b><i>Бамбуковая&nbsp;удочка&nbsp;новичка</b></i>@<b>20 LN</b>@Долговечность:&nbsp;<B>19/50</B>@','231_462','5922478|<b><i>Причудливое&nbsp;кольцо</b></i>@<b>98 LN</b>@Долговечность:&nbsp;<B>90/90</B>@','231_462','5922477|<b><i>Причудливое&nbsp;кольцо</b></i>@<b>98 LN</b>@Долговечность:&nbsp;<B>90/90</B>@','113_226','6085487|<b><i>Броня&nbsp;растворимости</b></i>@<b>106 LN</b>@Класс брони: <B>+7</B>@Жизнь: <B>+25</B>@Долговечность:&nbsp;<B>80/80</B>@','male_10',0,'c18','Kvant','14','195','195','9','9',0,'hp_5000','hp_5000','slots/pob17','slots/pob18','6132087|<b><i>Фляга&nbsp;восстановления&nbsp;100&nbsp;HP</b></i>@<b>37 LN</b>@Долговечность:&nbsp;<B>2/3</B>@','6132382|<b><i>Фляга&nbsp;восстановления&nbsp;100&nbsp;HP</b></i>@<b>37 LN</b>@Долговечность:&nbsp;<B>2/3</B>@','0','0',195,195,9,9,700,2000,25,41,14,25,1,1,38,1123.2,2.00,50,20,82,77,-17,18,12,19,69.42,'Граф',590,122,998848,15376,485776,8,1,'0',100,'+11','+20','+5','0','0','0');
+</script>
+
+<script>view_auras('');</script><SCRIPT SRC='js/c.js'></SCRIPT><SCRIPT SRC='js/tools/selectbox.js?3'></SCRIPT><SCRIPT SRC='js/end.js?3'></SCRIPT>

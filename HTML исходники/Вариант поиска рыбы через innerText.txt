@@ -1,0 +1,9 @@
+       {if pos('Вы поймали рыбу',HTMLDoc.frames.item(TargetFrameName).document.body.innerText)<>0 then begin }
+       {inc(iFishCount);   }
+       {Str1:=HTMLDoc.frames.item(TargetFrameName).document.body.innerText; }
+       {k:=pos('ТРЕБОВАНИЯ',Str1);
+        Delete(Str1,1,k+12);
+        k:=pos('LN',str1);
+        Str1:=LeftStr(str1,k-1);
+        str1:=AnsiReplaceStr(str1, '.', ',');
+        rMoney:=rMoney + StrToFloat(str1);        }

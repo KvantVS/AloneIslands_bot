@@ -1,0 +1,227 @@
+
+<SCRIPT type=text/javascript src="http://mc.yandex.ru/watch/184038?rn=186788&amp;cnt-class=0&amp;page-ref=http%3A%2F%2F195.242.161.132%2Fmain.php%3Ffishing%3Don&amp;page-url=http%3A%2F%2F195.242.161.132%2Fmain.php%3Ffishing%3Don&amp;browser-info=j:1:s:1024x768x32:f:10.0.32.18:fr:1&amp;wmode=1"></SCRIPT>
+</FONT>
+<DIV style="Z-INDEX: 65000; POSITION: absolute; WIDTH: 100px; DISPLAY: none; HEIGHT: 30px; TOP: -100px; LEFT: 0px" id=description onmouseover=h_des()></DIV>
+<DIV style="Z-INDEX: 1; POSITION: absolute; WIDTH: 0px; DISPLAY: none; HEIGHT: 0px; TOP: -5px; LEFT: -5px" id=ec class=but>&nbsp;</DIV>
+<SCRIPT>var images='images';show_head('2','','onclick=\"top.goloc(\'\',\'928b1b28ea219193c43c6a3ef6d82748\')\"',0,1,3);</SCRIPT>
+
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/bg_top_up.gif height=58 sizcache="1" sizset="0">
+<TBODY sizcache="1" sizset="0">
+<TR nodeIndex="1" sizcache="1" sizset="1">
+<TD width="50%" sizcache="1" sizset="1">
+<TABLE style="BACKGROUND-REPEAT: no-repeat" border=0 cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/left_top_up2.gif height="100%" sizcache="1" sizset="1">
+<TBODY sizcache="1" sizset="1">
+<TR nodeIndex="1">
+<TD height=24>&nbsp;</TD>
+<TD height=24>&nbsp;</TD>
+<TD height=24>&nbsp;</TD></TR>
+<TR nodeIndex="2">
+<TD align=middle><INPUT style="WIDTH: 160px; HEIGHT: 18px" id=but1 class=head disabled onclick="location='main.php?go=pers'" value=Персонаж type=button></TD>
+<TD align=middle><INPUT style="WIDTH: 160px; HEIGHT: 18px" id=but2 class=head disabled onclick="location='main.php?go=inv'" value=Рюкзак type=button></TD>
+<TD align=middle></TD></TR>
+<TR nodeIndex="3">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD></TR></TBODY></TABLE></TD>
+<TD sizcache="1" sizset="3">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=375 background=images/design/new/middle_top_up.gif height=58 sizcache="1" sizset="3">
+<TBODY sizcache="1" sizset="3">
+<TR nodeIndex="1">
+<TD width=124>&nbsp;</TD>
+<TD width=118>&nbsp;</TD>
+<TD>&nbsp;</TD></TR>
+<TR nodeIndex="2">
+<TD height=29 vAlign=top width=124 align=right><INPUT style="WIDTH: 68px; HEIGHT: 20px; FONT-SIZE: 11px" id=but9 class=head disabled onclick="location='main.php'" value=Обновить type=button></TD>
+<TD height=29 width=118>&nbsp;</TD>
+<TD height=29 vAlign=top><INPUT style="WIDTH: 68px; HEIGHT: 20px; FONT-SIZE: 11px" id=but8 class=head onclick=exit(); value=Выход type=button></TD></TR></TBODY></TABLE></TD>
+<TD background=images/design/new/bg_top_up.gif width="50%" sizcache="1" sizset="4">
+<TABLE style="BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right center" border=0 cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/right_top_up2.gif height="100%" sizcache="1" sizset="4">
+<TBODY sizcache="1" sizset="4">
+<TR nodeIndex="1">
+<TD height=23></TD>
+<TD height=23></TD>
+<TD height=23></TD></TR>
+<TR nodeIndex="2">
+<TD align=middle></TD>
+<TD align=middle><INPUT style="WIDTH: 110px; HEIGHT: 16px" id=but7 class=head disabled onclick="top.goloc('','928b1b28ea219193c43c6a3ef6d82748')" type=button></TD>
+<TD id=but5td align=middle><INPUT style="WIDTH: 70px; HEIGHT: 20px" id=but5 class=head disabled onclick="location='main.php?go=back'" value=Назад type=button></TD></TR>
+<TR nodeIndex="3">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<SCRIPT type=text/javascript src="js/naturen.js?8"></SCRIPT>
+
+<DIV style="Z-INDEX: 6; POSITION: absolute; WIDTH: 0px; HEIGHT: 0px; VISIBILITY: visible; TOP: -2px; LEFT: -2px" id=center jQuery1257533270636="3"></DIV>
+<DIV style="Z-INDEX: 7; POSITION: absolute; FILTER: ; WIDTH: 60%; ZOOM: 1; HEIGHT: 0px; TOP: 70px; LEFT: 21%" id=info jQuery1257533270636="5">
+<TABLE style="WIDTH: 100%" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD class=sbox3></TD>
+<TD class=sbox3>&nbsp;</TD>
+<TD class=sbox3></TD></TR>
+<TR>
+<TD class=sbox3>&nbsp;</TD>
+<TD class=sbox3c undefined?>
+<CENTER style="Z-INDEX: 10; OVERFLOW-Y: auto" class=but><A class=blocked href="javascript:hide_info()">Убрать</A>
+<HR>
+
+<CENTER class=but2>Нет клёва.</CENTER>
+<CENTER class=but2>Вы поймали консервную банку.<BR><IMG src="http://195.242.161.132/images/weapons/fish/b.jpg"><BR>Ваше умение "Рыбак" выросло на 0.26!<BR>Мирный опыт +1</CENTER>
+<CENTER class=but2 sizcache="1" sizset="8"><B class=green>Вы поймали рыбу!</B><BR><I class=timef>Большая.</I><BR>Мирный опыт +5 
+<HR>
+
+<CENTER class=weapons_box sizcache="1" sizset="8">
+<SCRIPT>
+show_w ('Маскинонг','','fish/18','1','1','<font class=user><img src=images/money.gif> <b>13.46LN</font></b><font class=items><br>',13.46,'0','0','','<br>Пропадёт через 3д&nbsp;23ч&nbsp;59м&nbsp;59с','','','',0,0,0,0,''
+,'0','5','','<font class=timef>Масса: <b>5</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="8">
+<TBODY sizcache="1" sizset="8">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="http://195.242.161.132/images/money.gif"> <B>13.46LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but><BR>Пропадёт через 3д&nbsp;23ч&nbsp;59м&nbsp;59с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Маскинонг</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="http://195.242.161.132/images/weapons/fish/18.gif"> 
+<DIV id=fish/18_1_13.46_ class=time></DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>5</B></FONT> 
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE></CENTER></CENTER>
+<SCRIPT>setTimeout('top.Sound("misc8",1,0);',225000);</SCRIPT>
+</CENTER></TD>
+<TD class=sbox3>&nbsp;</TD></TR>
+<TR>
+<TD class=sbox3></TD>
+<TD class=sbox3>&nbsp;</TD>
+<TD class=sbox3></TD></TR></TBODY></TABLE></DIV>
+<DIV style="Z-INDEX: 6; POSITION: absolute; WIDTH: 210px; HEIGHT: 30px; VISIBILITY: visible; TOP: 20px; LEFT: 40%" id=zcenter sizcache="1" sizset="6" jQuery1257533270636="2">
+<CENTER id=waiter class=but sizcache="1" sizset="6">Действие, ещё <I><B id=waiter_time>215</B> сек...</I><BR>
+<TABLE border=0 cellSpacing=0 width=190 cellspadding="0" sizcache="1" sizset="6">
+<TBODY sizcache="1" sizset="6">
+<TR nodeIndex="1">
+<TD align=right><IMG style="WIDTH: 2px; DISPLAY: block; OVERFLOW: hidden" id=waiter_on src="http://195.242.161.132/images/skill.gif" width=0 height=8 jQuery1257533270636="6"></TD>
+<TD align=left><IMG style="WIDTH: 188px; DISPLAY: block; OVERFLOW: hidden" id=waiter_off src="http://195.242.161.132/images/no.png" width=190 height=8 jQuery1257533270636="7"></TD></TR></TBODY></TABLE></CENTER></DIV>
+<DIV style="Z-INDEX: 1; POSITION: absolute; TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: 200%; VISIBILITY: visible; TOP: 0px; LEFT: 0px" id=center2 class=news>&nbsp;</DIV>
+<DIV style="Z-INDEX: 1; POSITION: absolute; TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: 200%; VISIBILITY: visible; TOP: 0px; LEFT: 0px" id=center3 class=news>&nbsp;</DIV>
+<DIV id=mainouter sizcache="1" sizset="7">
+<TABLE border=0 cellSpacing=0 borderColorLight=#c0c0c0 borderColorDark=#ffffff cellPadding=0 width="100%" sizcache="1" sizset="7">
+<TBODY sizcache="1" sizset="7">
+<TR nodeIndex="1">
+<TD id=d1 class=inv vAlign=top width="25%" align=middle>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=230>
+<TBODY>
+<TR>
+<TD width=26><IMG border=0 src="http://195.242.161.132/images/design/hot/hp_left.gif"></TD>
+<TD align=middle>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD id=hptitle title="1 здоровья за 1 сек." colSpan=2><IMG border=0 name=hp src="http://195.242.161.132/images/design/new/hp.gif" width=186 height=8><IMG border=0 name=no_hp src="http://195.242.161.132/images/no.png" width=0 height=8></TD></TR>
+<TR class=login>
+<TD id=chp class=hp>316/316</TD>
+<TD id=cma class=ma align=right>9/9</TD></TR>
+<TR>
+<TD id=matitle title="1 маны за 56 сек." colSpan=2><IMG border=0 name=ma src="http://195.242.161.132/images/design/new/ma.gif" width=186 height=8><IMG border=0 name=no_ma src="http://195.242.161.132/images/no.png" width=0 height=8></TD></TR></TBODY></TABLE></TD>
+<TD width=26 align=left><IMG border=0 src="http://195.242.161.132/images/design/hot/hp_right.gif"></TD></TR></TBODY></TABLE>
+<TABLE style="POSITION: relative; WIDTH: 100%; TOP: -8px" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/left_top.png" width=18 height=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/top.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/right_top.png" width=18 height=18></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(images/left.png); WIDTH: 18px">&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(images/bg.png)">
+<CENTER>
+<DIV class=but><FONT class=green>Усталость: <B>6%</B></FONT> <A class=bg href="javascript:show_mmap(-6,5)">Миникарта</A> </DIV>
+<DIV class=but>Масса вещей: [503/460] <FONT class=hp>Вы перегружены!</FONT> </DIV><I>Деньги: <B>8104.83LN</B></I> 
+<HR>
+
+<DIV><I>Вода. Здесь вы можете заняться рыбной ловлей.</I> </DIV><BR>
+<DIV><IMG style="BORDER-BOTTOM: #ffffff 3px outset; BORDER-LEFT: #ffffff 3px outset; BORDER-TOP: #ffffff 3px outset; BORDER-RIGHT: #ffffff 3px outset" border=0 src="http://195.242.161.132/images/weather/top/1.gif" width=145 height=145> </DIV></CENTER></TD>
+<TD style="BACKGROUND-IMAGE: url(images/right.png); WIDTH: 18px">&nbsp;</TD></TR>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/left_bottom.png" width=18 height=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/bottom.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/right_bottom.png" width=18 height=18></TD></TR></TBODY></TABLE></TD>
+<TD id=map class=inv vAlign=top width=560 align=middle>
+<DIV id=mapl class=map jQuery1257533270636="4"></DIV></TD>
+<TD style="HEIGHT: 100%" id=d2 class=inv vAlign=top align=middle>
+<TABLE style="POSITION: relative; WIDTH: 100%; TOP: -8px" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/left_top.png" width=18 height=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/top.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/right_top.png" width=18 height=18></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(images/left.png); WIDTH: 18px">&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(images/bg.png)">
+<CENTER>
+<DIV class=but><B><I>Ресурсы:</I></B> 
+<TABLE class=LinedTable>
+<TBODY>
+<TR>
+<TD>Рыба.</TD></TR></TBODY></TABLE>
+<CENTER><INPUT style="WIDTH: 90%" class=login onclick="location='main.php?fishing=on&amp;1257533282'" value=Рыбалка type=button></CENTER></DIV>
+<CENTER style="OVERFLOW-X: hidden; HEIGHT: 120px" class=inv_but>Живность на локации: <BR>
+<TABLE class=LinedTable border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY></TBODY></TABLE><I class=gray>Не обнаружено...</I></CENTER></CENTER></TD>
+<TD style="BACKGROUND-IMAGE: url(images/right.png); WIDTH: 18px">&nbsp;</TD></TR>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/left_bottom.png" width=18 height=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/bottom.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/right_bottom.png" width=18 height=18></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV style="VISIBILITY: hidden" id=outer sizcache="1" sizset="8">
+<CENTER class=but2>Нет клёва.</CENTER>
+<CENTER class=but2>Вы поймали консервную банку.<BR><IMG src="images/weapons/fish/b.jpg"><BR>Ваше умение "Рыбак" выросло на 0.26!<BR>Мирный опыт +1</CENTER>
+<CENTER class=but2 sizcache="1" sizset="8"><B class=green>Вы поймали рыбу!</B><BR><I class=timef>Большая.</I><BR>Мирный опыт +5
+<HR>
+
+<CENTER class=weapons_box sizcache="1" sizset="8">
+<SCRIPT>
+show_w ('Маскинонг','','fish/18','1','1','<font class=user><img src=images/money.gif> <b>13.46LN</font></b><font class=items><br>',13.46,'0','0','','<br>Пропадёт через 3д&nbsp;23ч&nbsp;59м&nbsp;59с','','','',0,0,0,0,''
+,'0','5','','<font class=timef>Масса: <b>5</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 0</font></center>');</SCRIPT>
+
+<TABLE class=butvv cellPadding=0 width="100%" sizcache="1" sizset="8">
+<TBODY sizcache="1" sizset="8">
+<TR nodeIndex="1">
+<TD class=mfb height=10 width="50%" align=middle><B>СВОЙСТВА</B></TD>
+<TD height=10 width="30%" align=middle>&nbsp;</TD>
+<TD class=mfb height=10 width="20%" align=middle><B>ТРЕБОВАНИЯ</B></TD></TR>
+<TR nodeIndex="2">
+<TD>
+<CENTER><FONT class=user><IMG src="images/money.gif"> <B>13.46LN</FONT></B><FONT class=items><BR></CENTER><BR>
+<CENTER class=but><BR>Пропадёт через 3д&nbsp;23ч&nbsp;59м&nbsp;59с</CENTER></FONT></TD>
+<TD style="BORDER-BOTTOM-COLOR: silver; BORDER-LEFT: silver 1px solid; BORDER-TOP-COLOR: silver; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT: silver 1px solid" align=middle><FONT class=user><B>Маскинонг</B></FONT> </B>
+<HR>
+<IMG style="BORDER-BOTTOM: #ffffff 2px outset; BORDER-LEFT: #ffffff 2px outset; BORDER-TOP: #ffffff 2px outset; BORDER-RIGHT: #ffffff 2px outset" src="images/weapons/fish/18.gif">
+<DIV id=fish/18_1_13.46_ class=time></DIV><FONT class=time>[1/1]</FONT></TD>
+<TD><FONT class=timef>Масса: <B>5</B></FONT>
+<HR>
+
+<CENTER class=but><B>Уровень</B>:<FONT class=green> 0</FONT></CENTER></TD></TR></TBODY></TABLE></CENTER></CENTER>
+<SCRIPT>setTimeout('top.Sound("misc8",1,0);',225000);</SCRIPT>
+</DIV>
+<SCRIPT>
+waiterSPEC(225);var aX = -6;
+var aY = 5;
+view_nature();
+</SCRIPT>
+
+<SCRIPT src="js/c.js"></SCRIPT>
+
+<DIV align=right><A href="http://www.liveinternet.ru/click" target=_blank><IMG title="LiveInternet: показано число посетителей за сегодня" alt="" src="http://counter.yadro.ru/hit?t26.5;rhttp%3A//195.242.161.132/main.php%3Ffishing%3Don;s1024*768*32;uhttp%3A//195.242.161.132/main.php%3Ffishing%3Don;0.8446133536866152" width=88 height=15></A><BR><A href="http://top.mail.ru/jump?from=1207359" target=_top><IMG alt=Рейтинг@Mail.ru src="http://dc.c6.b2.a1.top.list.ru/counter?id=1207359;t=109;js=13;j=true;s=1024*768;d=32;rand=0.7774702348714587" width=88 height=18></A></DIV>
+<SCRIPT>$(".LinedTable tr:nth-child(odd)").css("background-color","#ECECEC");</SCRIPT>
+<!-- Yandex.Metrika -->
+<SCRIPT type=text/javascript src="//mc.yandex.ru/resource/watch.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+try { var yaCounter184038 = new Ya.Metrika(184038); } catch(e){}
+</SCRIPT>
+<NOSCRIPT></NOSCRIPT><!-- Yandex.Metrika -->

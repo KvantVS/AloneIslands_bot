@@ -1,0 +1,32 @@
+<META Http-Equiv=Content-Type Content="text/html; charset=windows-1251">
+<META Http-Equiv=Cache-Control Content=No-Cache>
+<META Http-Equiv=Pragma Content=No-Cache>
+<META Http-Equiv=Expires Content=0>
+<center class=return_win>
+<META HTTP-EQUIV="Page-Enter" CONTENT="BlendTrans(Duration=0.1)"></font></center><script type="text/javascript" src="js/newup.js?z123"></script><script>var images='images';show_head('2','','onclick=\"top.goloc(\'\',\'b868175da80820b4a5b32deada152b85\')\"',0,1,3);</script><!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="ie6.css" />
+<![endif]--><script type="text/javascript" src="js/naturen.js"></script>
+<div id=mainouter style="display:none;">
+<table border="0" width="100%" cellspacing="0" cellpadding="0" bordercolorlight=#C0C0C0 bordercolordark=#FFFFFF>
+<tr>
+<td class=inv align=center width=25% valign=center id=d1>
+</td>
+<td align=center width=560 class=inv id=map valign=top>
+</td>
+<td class=inv align=center valign=center id=d2 style="height:100%">
+</td>
+</tr>
+</table>
+</div>
+
+<div id=outer style="visibility:hidden;"><center class=but2><b>Огромное количество</b> особей.</center>У вас нет снастей для ловли.</div>
+
+<script>
+waiterSPEC(0);var aX = -2;
+var aY = 11;
+view_nature();
+</script>
+<SCRIPT SRC='js/c.js'></SCRIPT><SCRIPT SRC='js/tools/selectbox.js?3'></SCRIPT><SCRIPT SRC='js/end.js?3'></SCRIPT>

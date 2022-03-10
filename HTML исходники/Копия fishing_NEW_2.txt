@@ -1,0 +1,105 @@
+<CENTER class=return_win></FONT></CENTER>
+<DIV id=description style="DISPLAY: none; Z-INDEX: 2; LEFT: 0px; VISIBILITY: visible; WIDTH: 100px; POSITION: absolute; TOP: -100px; HEIGHT: 30px">&nbsp;</DIV>
+<DIV class=inv id=ec style="DISPLAY: none; Z-INDEX: 1; LEFT: -5px; VISIBILITY: visible; WIDTH: 0px; POSITION: absolute; TOP: -5px; HEIGHT: 0px">&nbsp;</DIV>
+<DIV class=news id=news style="DISPLAY: block; Z-INDEX: 65535; LEFT: -500px; VISIBILITY: visible; WIDTH: 500px; POSITION: absolute; TOP: 100px; HEIGHT: 200px" bgcolor="#000000">
+<TABLE height=200 width=500 border=0>
+<TBODY>
+<TR>
+<TD class=newsm id=tipp vAlign=top align=middle height="80%">&nbsp;</TD>
+<TD style="CURSOR: pointer; COLOR: #ffffff" onclick=show_div() vAlign=top width=20>[X]</TD></TR>
+<TR>
+<TD id=setup>&nbsp;</TD></TR></TBODY></TABLE></DIV>
+<SCRIPT>var images='images';show_head('2','','onclick=\"top.goloc(\'\',\'8b51049394443fca2ef1854e2ade1ec1\')\"',0,1,3);</SCRIPT>
+
+<TABLE height=58 cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/bg_top_up.gif border=0>
+<TBODY>
+<TR>
+<TD width="50%">
+<TABLE style="BACKGROUND-REPEAT: no-repeat" height="100%" cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/left_top_up2.gif border=0>
+<TBODY>
+<TR>
+<TD height=24>&nbsp;</TD>
+<TD height=24>&nbsp;</TD>
+<TD height=24>&nbsp;</TD></TR>
+<TR>
+<TD align=middle><INPUT class=head id=but1 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 70px; CURSOR: pointer; HEIGHT: 18px" onclick="location='main.php?go=pers'" onmouseout=fadeOpacity.back(this.id) type=button value=Персонаж jQuery1234265317343="3"></TD>
+<TD align=middle><INPUT class=head id=but2 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 110px; CURSOR: pointer; HEIGHT: 18px" onclick="location='main.php?go=inv'" onmouseout=fadeOpacity.back(this.id) type=button value=Рюкзак jQuery1234265317343="4"></TD>
+<TD align=middle><INPUT class=head id=but4 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 110px; CURSOR: pointer; HEIGHT: 16px" disabled onclick="location='main.php?go=addon'" onmouseout=fadeOpacity.back(this.id) type=button value=Возможности jQuery1234265317343="5"></TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE height=58 cellSpacing=0 cellPadding=0 width=375 background=images/design/new/middle_top_up.gif border=0>
+<TBODY>
+<TR>
+<TD width=124>&nbsp;</TD>
+<TD width=118>&nbsp;</TD>
+<TD>&nbsp;</TD></TR>
+<TR>
+<TD vAlign=top align=right width=124 height=29><INPUT class=head id=but9 onmouseover="fadeOpacity(this.id, 'oR2')" style="FONT-SIZE: 11px; WIDTH: 68px; CURSOR: pointer; HEIGHT: 20px" onclick="location='main.php'" onmouseout=fadeOpacity.back(this.id) type=button value=Обновить jQuery1234265317343="6"></TD>
+<TD width=118 height=29>&nbsp;</TD>
+<TD vAlign=top height=29><INPUT class=head id=but8 onmouseover="fadeOpacity(this.id, 'oR2')" style="FONT-SIZE: 11px; WIDTH: 68px; CURSOR: pointer; HEIGHT: 20px" onclick=exit(); onmouseout=fadeOpacity.back(this.id) type=button value=Выход jQuery1234265317343="7"></TD></TR></TBODY></TABLE></TD>
+<TD width="50%" background=images/design/new/bg_top_up.gif>
+<TABLE style="BACKGROUND-POSITION: right center; BACKGROUND-REPEAT: no-repeat" height="100%" cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/right_top_up2.gif border=0>
+<TBODY>
+<TR>
+<TD height=23></TD>
+<TD height=23></TD>
+<TD height=23></TD></TR>
+<TR>
+<TD align=middle><INPUT class=head id=but3 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 110px; CURSOR: pointer; HEIGHT: 20px" disabled onclick="location='main.php?go=self'" onmouseout=fadeOpacity.back(this.id) type=button value=Личное jQuery1234265317343="8"></TD>
+<TD align=middle><INPUT class=head id=but7 style="WIDTH: 110px; CURSOR: pointer; HEIGHT: 16px" disabled onclick="top.goloc('','8b51049394443fca2ef1854e2ade1ec1')" type=button jQuery1234265317343="9"></TD>
+<TD id=but5td align=middle><INPUT class=head id=but5 onmouseover="fadeOpacity(this.id, 'oR2')" style="WIDTH: 70px; CURSOR: pointer; HEIGHT: 20px" disabled onclick="location='main.php?go=back'" onmouseout=fadeOpacity.back(this.id) type=button value=Назад jQuery1234265317343="10"></TD></TR>
+<TR>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><LINK href="ie.css" type=text/css rel=stylesheet><LINK href="ie6.css" type=text/css rel=stylesheet>
+<SCRIPT src="js/naturen.js" type=text/javascript></SCRIPT>
+
+<DIV id=center style="DISPLAY: none; Z-INDEX: 6; FILTER: ; LEFT: -2px; VISIBILITY: visible; WIDTH: 0px; ZOOM: 1; POSITION: absolute; TOP: -2px; HEIGHT: 0px" jQuery1234265317343="2"></DIV>
+<DIV class=inv id=info style="Z-INDEX: 7; LEFT: -2px; VISIBILITY: visible; WIDTH: 0px; POSITION: absolute; TOP: -2px; HEIGHT: 0px"></DIV>
+<DIV class=inv id=zcenter style="Z-INDEX: 6; LEFT: -2px; VISIBILITY: visible; WIDTH: 0px; POSITION: absolute; TOP: -2px; HEIGHT: 0px"></DIV>
+<DIV class=news id=center2 style="Z-INDEX: 1; LEFT: 0px; VISIBILITY: hidden; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 200%; TEXT-ALIGN: center">&nbsp;</DIV>
+<DIV id=mainouter style="DISPLAY: none">
+<TABLE cellSpacing=0 borderColorDark=#ffffff cellPadding=0 width="100%" borderColorLight=#c0c0c0 border=0>
+<TBODY>
+<TR>
+<TD class=inv id=d1 vAlign=center align=middle width="25%"></TD>
+<TD class=inv id=map vAlign=top align=middle width=560></TD>
+<TD class=inv id=d2 style="HEIGHT: 100%" vAlign=center align=middle></TD></TR></TBODY></TABLE></DIV>
+<DIV id=outer style="VISIBILITY: hidden">
+<CENTER class=but2><B>Туча</B> особей.</CENTER>
+<CENTER class=fightlong>
+<FORM action=main.php?fishing=on method=post><INPUT type=hidden value=6c3e6463d4ac4c345c69a21c5a59ac48 name=check> 
+<TABLE class=LinedTable width="80%" border=0>
+<TBODY jQuery1234265317343="12">
+<TR style="BACKGROUND-COLOR: #ececec" nodeIndex="1" jQuery1234265317343="13">
+<TD align=middle colSpan=7><INPUT class=login style="WIDTH: 100%; CURSOR: pointer" type=submit value=Ловить jQuery1234265317343="11"></TD></TR>
+<TR nodeIndex="2">
+<TD><IMG src="images/weapons/fishing_prim_5.gif"></TD>
+<TD class=user>Зеленый горошек</TD>
+<TD class=timef>[21/50]</TD>
+<TD><INPUT type=radio value=6134608 name=primid></TD></TR>
+<TR style="BACKGROUND-COLOR: #ececec" nodeIndex="3" jQuery1234265317343="14">
+<TD><IMG src="images/weapons/fishing_prim_5.gif"></TD>
+<TD class=user>Зеленый горошек</TD>
+<TD class=timef>[50/50]</TD>
+<TD><INPUT type=radio value=6134610 name=primid></TD></TR>
+<TR nodeIndex="4">
+<TD><IMG src="images/weapons/fishing_prim_5.gif"></TD>
+<TD class=user>Зеленый горошек</TD>
+<TD class=timef>[50/50]</TD>
+<TD><INPUT type=radio value=6134609 name=primid></TD></TR></TBODY></TABLE></FORM></CENTER></DIV>
+<SCRIPT>
+waiterSPEC(0);var aX = 25;
+var aY = -3;
+view_nature();
+</SCRIPT>
+
+<SCRIPT src="js/c.js"></SCRIPT>
+
+<DIV align=right><A href="http://www.liveinternet.ru/click" target=_blank><IMG title="LiveInternet: показано число посетителей за сегодня" height=15 alt="" src="http://counter.yadro.ru/hit?t26.5;r;s1024*768*32;uhttp%3A//www.aloneislands.ru/main.php%3Ffishing%3Don;0.8874952949939109" width=88></A><BR><A href="http://top.mail.ru/jump?from=1207359" target=_top><IMG height=18 alt=Рейтинг@Mail.ru src="http://dc.c6.b2.a1.top.list.ru/counter?id=1207359;t=109;js=13;j=true;s=1024*768;d=32;rand=0.31970884843195596" width=88></A></DIV>
+<SCRIPT src="js/tools/selectbox.js?3"></SCRIPT>
+
+<SCRIPT src="js/end.js?3"></SCRIPT>

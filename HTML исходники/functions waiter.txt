@@ -1,0 +1,61 @@
+function waiter(time,upd)
+{
+	   clearInterval(curTimeInt);
+	if (!upd) upd = 1; else upd = 0;
+	   allTime = time;
+       curTimeFor = time;
+       curTimeInt = setInterval("winterv("+upd+")",250);
+	   winterv(upd);
+	   if (time>10 && top.ctip && top._duration) setTimeout("show_tip(0)",7000);
+	   set_apps(0);
+		$('.head').get(0).disabled = true;
+		$('.head').get(1).disabled = true;
+		$('.head').get(2).disabled = true;
+		$('.head').get(4).disabled = true;
+		$('.head').get(5).disabled = true;
+		$('.head').get(7).disabled = true;
+}
+
+function winterv(upd)
+{
+	if (!document.getElementById("waiter")) return;
+       if(curTimeFor>0 || (!upd && curTimeFor==0))
+       {
+		  var addtxt = '';
+		  addtxt = '<img src=images/skill.gif height=8 width='+(200*((allTime-curTimeFor)/allTime))+'>';
+		  addtxt += '<img src=images/no.png height=8 width='+(200-200*((allTime-curTimeFor)/allTime))+'>';
+          document.getElementById("waiter").innerHTML = 'Действие, ещё <b>'+Math.round(curTimeFor)+'</b> сек...</i><br>'+addtxt;
+	      curTimeFor = curTimeFor - 0.25;
+       }
+       else if (upd)
+       {
+          clearInterval(curTimeInt);
+	      document.getElementById("waiter").innerHTML = '<a href=main.php class=timef>Обновление...</a></i>';
+	      window.location = "main.php";
+       }
+	   else 
+       {
+          clearInterval(curTimeInt);
+	      document.getElementById("waiter").innerHTML = '';
+				$('.head').get(0).disabled = false;
+				$('.head').get(1).disabled = false;
+				$('.head').get(2).disabled = false;
+				$('.head').get(4).disabled = false;
+				$('.head').get(5).disabled = false;
+				$('.head').get(7).disabled = false;
+       }
+}
+
+function set_apps(on)
+{
+if (on) 
+{
+for (var i=1;i<=7;i++)
+	if ($('but'+i)) $('but'+i).disabled = false;
+}
+else
+{
+for (var i=1;i<=7;i++)
+	if ($('but'+i)) $('but'+i).disabled = true;
+}
+}

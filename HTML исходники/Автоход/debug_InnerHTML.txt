@@ -1,0 +1,268 @@
+
+<SCRIPT type=text/javascript src="http://mc.yandex.ru/watch/184038?rn=885149&amp;cnt-class=0&amp;page-ref=&amp;page-url=http%3A%2F%2F195.242.161.132%2Fmain.php%3Fgo%3Dback&amp;browser-info=j:1:s:1024x768x32:f:10.0.32.18:fr:1&amp;wmode=1"></SCRIPT>
+</FONT>
+<DIV style="Z-INDEX: 65000; POSITION: absolute; WIDTH: 100px; DISPLAY: none; HEIGHT: 30px; TOP: -100px; LEFT: 0px" id=description onmouseover=h_des()></DIV>
+<DIV style="Z-INDEX: 1; POSITION: absolute; WIDTH: 0px; DISPLAY: none; HEIGHT: 0px; TOP: -5px; LEFT: -5px" id=ec class=but>&nbsp;</DIV>
+<SCRIPT>var images='images';show_head('2','','onclick=\"top.goloc(\'\',\'a7c7cc66afa3773b4554fc67045e9828\')\"',0,1,3);</SCRIPT>
+
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/bg_top_up.gif height=58 sizcache="1" sizset="0">
+<TBODY sizcache="1" sizset="0">
+<TR nodeIndex="1" sizcache="1" sizset="1">
+<TD width="50%" sizcache="1" sizset="1">
+<TABLE style="BACKGROUND-REPEAT: no-repeat" border=0 cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/left_top_up2.gif height="100%" sizcache="1" sizset="1">
+<TBODY sizcache="1" sizset="1">
+<TR nodeIndex="1">
+<TD height=24>&nbsp;</TD>
+<TD height=24>&nbsp;</TD>
+<TD height=24>&nbsp;</TD></TR>
+<TR nodeIndex="2">
+<TD align=middle><INPUT style="WIDTH: 160px; HEIGHT: 18px" id=but1 class=head onclick="location='main.php?go=pers'" value=Персонаж type=button></TD>
+<TD align=middle><INPUT style="WIDTH: 160px; HEIGHT: 18px" id=but2 class=head onclick="location='main.php?go=inv'" value=Рюкзак type=button></TD>
+<TD align=middle></TD></TR>
+<TR nodeIndex="3">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD></TR></TBODY></TABLE></TD>
+<TD sizcache="1" sizset="3">
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=375 background=images/design/new/middle_top_up.gif height=58 sizcache="1" sizset="3">
+<TBODY sizcache="1" sizset="3">
+<TR nodeIndex="1">
+<TD width=124>&nbsp;</TD>
+<TD width=118>&nbsp;</TD>
+<TD>&nbsp;</TD></TR>
+<TR nodeIndex="2">
+<TD height=29 vAlign=top width=124 align=right><INPUT style="WIDTH: 68px; HEIGHT: 20px; FONT-SIZE: 11px" id=but9 class=head onclick="location='main.php'" value=Обновить type=button></TD>
+<TD height=29 width=118>&nbsp;</TD>
+<TD height=29 vAlign=top><INPUT style="WIDTH: 68px; HEIGHT: 20px; FONT-SIZE: 11px" id=but8 class=head onclick=exit(); value=Выход type=button></TD></TR></TBODY></TABLE></TD>
+<TD background=images/design/new/bg_top_up.gif width="50%" sizcache="1" sizset="4">
+<TABLE style="BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right center" border=0 cellSpacing=0 cellPadding=0 width="100%" background=images/design/new/right_top_up2.gif height="100%" sizcache="1" sizset="4">
+<TBODY sizcache="1" sizset="4">
+<TR nodeIndex="1">
+<TD height=23></TD>
+<TD height=23></TD>
+<TD height=23></TD></TR>
+<TR nodeIndex="2">
+<TD align=middle></TD>
+<TD align=middle><INPUT style="WIDTH: 110px; HEIGHT: 16px" id=but7 class=head disabled onclick="top.goloc('','a7c7cc66afa3773b4554fc67045e9828')" type=button></TD>
+<TD id=but5td align=middle><INPUT style="WIDTH: 70px; HEIGHT: 20px" id=but5 class=head disabled onclick="location='main.php?go=back'" value=Назад type=button></TD></TR>
+<TR nodeIndex="3">
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<SCRIPT type=text/javascript src="js/naturen.js?8"></SCRIPT>
+
+<DIV style="Z-INDEX: 6; POSITION: absolute; WIDTH: 0px; HEIGHT: 0px; VISIBILITY: visible; TOP: -2px; LEFT: -2px" id=center jQuery1257533552192="3"></DIV>
+<DIV style="Z-INDEX: 7; POSITION: absolute; WIDTH: 0px; DISPLAY: none; HEIGHT: 0px; TOP: -2px; LEFT: -2px" id=info></DIV>
+<DIV style="Z-INDEX: 6; POSITION: absolute; WIDTH: 0px; HEIGHT: 0px; VISIBILITY: visible; TOP: -2px; LEFT: -2px" id=zcenter jQuery1257533552192="2"></DIV>
+<DIV style="Z-INDEX: 1; POSITION: absolute; TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: 200%; VISIBILITY: hidden; TOP: 0px; LEFT: 0px" id=center2 class=news>&nbsp;</DIV>
+<DIV style="Z-INDEX: 1; POSITION: absolute; TEXT-ALIGN: center; WIDTH: 100%; HEIGHT: 200%; VISIBILITY: hidden; TOP: 0px; LEFT: 0px" id=center3 class=news>&nbsp;</DIV>
+<DIV id=mainouter sizcache="1" sizset="6">
+<TABLE border=0 cellSpacing=0 borderColorLight=#c0c0c0 borderColorDark=#ffffff cellPadding=0 width="100%" sizcache="1" sizset="6">
+<TBODY sizcache="1" sizset="6">
+<TR nodeIndex="1">
+<TD id=d1 class=inv vAlign=top width="25%" align=middle>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width=230>
+<TBODY>
+<TR>
+<TD width=26><IMG border=0 src="http://195.242.161.132/images/design/hot/hp_left.gif"></TD>
+<TD align=middle>
+<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD id=hptitle title="1 здоровья за 1 сек." colSpan=2><IMG border=0 name=hp src="http://195.242.161.132/images/design/new/hp.gif" width=186 height=8><IMG border=0 name=no_hp src="http://195.242.161.132/images/no.png" width=0 height=8></TD></TR>
+<TR class=login>
+<TD id=chp class=hp>316/316</TD>
+<TD id=cma class=ma align=right>9/9</TD></TR>
+<TR>
+<TD id=matitle title="1 маны за 56 сек." colSpan=2><IMG border=0 name=ma src="http://195.242.161.132/images/design/new/ma.gif" width=186 height=8><IMG border=0 name=no_ma src="http://195.242.161.132/images/no.png" width=0 height=8></TD></TR></TBODY></TABLE></TD>
+<TD width=26 align=left><IMG border=0 src="http://195.242.161.132/images/design/hot/hp_right.gif"></TD></TR></TBODY></TABLE>
+<TABLE style="POSITION: relative; WIDTH: 100%; TOP: -8px" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/left_top.png" width=18 height=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/top.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/right_top.png" width=18 height=18></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(images/left.png); WIDTH: 18px">&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(images/bg.png)">
+<CENTER>
+<DIV class=but>
+<SCRIPT>var go_str = 'var XM9_6=0;var XM9_7=0;var XM8_6=0;var XM8_7=0;var XM7_6=0;var XM7_7=0;var XM7_3=0;var XM7_5=0;var XM6_7=0;var XM6_6=0;var XM6_5=0;var XM5_7=0;var XM5_5=0;var XM5_6=0;var XM4_7=0;var XM4_3=0;var XM4_4=0;var XM4_5=0;var XM3_7=0;var XM3_5=0;';var bd_str = '';</SCRIPT>
+<FONT class=green>Усталость: <B>0%</B></FONT> <A class=bg href="javascript:show_mmap(-6,5)">Миникарта</A> </DIV>
+<DIV class=but>Масса вещей: [503/460] <FONT class=hp>Вы перегружены!</FONT> </DIV><I>Деньги: <B>8104.83LN</B></I> 
+<HR>
+
+<DIV><I>Вода. Здесь вы можете заняться рыбной ловлей.</I> </DIV><BR>
+<DIV><IMG style="BORDER-BOTTOM: #ffffff 3px outset; BORDER-LEFT: #ffffff 3px outset; BORDER-TOP: #ffffff 3px outset; BORDER-RIGHT: #ffffff 3px outset" border=0 src="http://195.242.161.132/images/weather/top/1.gif" width=145 height=145> </DIV></CENTER></TD>
+<TD style="BACKGROUND-IMAGE: url(images/right.png); WIDTH: 18px">&nbsp;</TD></TR>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/left_bottom.png" width=18 height=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/bottom.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/right_bottom.png" width=18 height=18></TD></TR></TBODY></TABLE></TD>
+<TD id=map class=inv vAlign=top width=560 align=middle>
+<DIV id=mapl class=map>
+<TABLE border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(../images/map/12_28.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/13_28.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/14_28.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/15_28.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/16_28.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/17_28.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/18_28.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/19_28.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/20_28.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(../images/map/12_29.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/13_29.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/14_29.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/15_29.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/16_29.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/17_29.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/18_29.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/19_29.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/20_29.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(../images/map/12_30.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/13_30.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/14_30.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/15_30.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/16_30.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/17_30.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/18_30.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/19_30.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/20_30.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(../images/map/12_31.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/13_31.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/14_31.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/15_31.jpg); WIDTH: 80px; HEIGHT: 80px; CURSOR: pointer" title=[Перейти] onclick=go_nature(-7,5) vAlign=top>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #ffffff; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none" class=ngo_yes>&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/16_31.jpg); WIDTH: 80px; HEIGHT: 80px; CURSOR: pointer" vAlign=top>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #ffffff; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none" class=fader title="Ваше местоположение">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/17_31.jpg); WIDTH: 80px; HEIGHT: 80px; CURSOR: pointer" title=[Перейти] onclick=go_nature(-5,5) vAlign=top>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #ffffff; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none" class=ngo_yes>&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/18_31.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/19_31.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/20_31.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(../images/map/12_32.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/13_32.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/14_32.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/15_32.jpg); WIDTH: 80px; HEIGHT: 80px; CURSOR: pointer" title=[Перейти] onclick=go_nature(-7,6) vAlign=top>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #ffffff; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none" class=ngo_yes>&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/16_32.jpg); WIDTH: 80px; HEIGHT: 80px; CURSOR: pointer" title=[Перейти] onclick=go_nature(-6,6) vAlign=top>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #ffffff; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none" class=ngo_yes>&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/17_32.jpg); WIDTH: 80px; HEIGHT: 80px; CURSOR: pointer" title=[Перейти] onclick=go_nature(-5,6) vAlign=top>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BACKGROUND-COLOR: #ffffff; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none" class=ngo_yes>&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/18_32.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/19_32.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/20_32.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(../images/map/12_33.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/13_33.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/14_33.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/15_33.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/16_33.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/17_33.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/18_33.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/19_33.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/20_33.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(../images/map/12_34.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/13_34.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/14_34.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/15_34.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/16_34.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/17_34.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/18_34.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/19_34.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD>
+<TD style="BACKGROUND-IMAGE: url(../images/map/20_34.jpg); WIDTH: 80px; HEIGHT: 80px" title=Недоступно>
+<DIV style="BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; WIDTH: 80px; BORDER-TOP-STYLE: none; HEIGHT: 80px; BORDER-LEFT-STYLE: none">&nbsp;</DIV></TD></TR></TBODY></TABLE></DIV></TD>
+<TD style="HEIGHT: 100%" id=d2 class=inv vAlign=top align=middle>
+<TABLE style="POSITION: relative; WIDTH: 100%; TOP: -8px" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/left_top.png" width=18 height=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/top.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/right_top.png" width=18 height=18></TD></TR>
+<TR>
+<TD style="BACKGROUND-IMAGE: url(images/left.png); WIDTH: 18px">&nbsp;</TD>
+<TD style="BACKGROUND-IMAGE: url(images/bg.png)">
+<CENTER>
+<DIV class=but><B><I>Ресурсы:</I></B> 
+<TABLE class=LinedTable>
+<TBODY>
+<TR>
+<TD>Рыба.</TD></TR></TBODY></TABLE>
+<CENTER><INPUT style="WIDTH: 90%" class=login onclick="location='main.php?fishing=on&amp;1257533595'" value=Рыбалка type=button></CENTER></DIV>
+<CENTER style="OVERFLOW-X: hidden; HEIGHT: 120px" class=inv_but>Живность на локации: <BR>
+<TABLE class=LinedTable border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY></TBODY></TABLE><I class=gray>Не обнаружено...</I></CENTER>
+<CENTER class=puns>Вы перегружены!</CENTER></CENTER></TD>
+<TD style="BACKGROUND-IMAGE: url(images/right.png); WIDTH: 18px">&nbsp;</TD></TR>
+<TR>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/left_bottom.png" width=18 height=18></TD>
+<TD style="BACKGROUND-IMAGE: url(images/bottom.png); HEIGHT: 18px">&nbsp;</TD>
+<TD style="WIDTH: 18px; HEIGHT: 18px"><IMG src="http://195.242.161.132/images/right_bottom.png" width=18 height=18></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV style="VISIBILITY: hidden" id=outer></DIV>
+<SCRIPT>
+var aX = -6;
+var aY = 5;
+view_nature();
+</SCRIPT>
+
+<SCRIPT src="js/c.js"></SCRIPT>
+
+<DIV align=right><A href="http://www.liveinternet.ru/click" target=_blank><IMG title="LiveInternet: показано число посетителей за сегодня" alt="" src="http://counter.yadro.ru/hit?t26.5;r;s1024*768*32;uhttp%3A//195.242.161.132/main.php%3Fgo%3Dback;0.7581803471187919" width=88 height=15></A><BR><A href="http://top.mail.ru/jump?from=1207359" target=_top><IMG alt=Рейтинг@Mail.ru src="http://dc.c6.b2.a1.top.list.ru/counter?id=1207359;t=109;js=13;j=true;s=1024*768;d=32;rand=0.15131385183513335" width=88 height=18></A></DIV>
+<SCRIPT>$(".LinedTable tr:nth-child(odd)").css("background-color","#ECECEC");</SCRIPT>
+<!-- Yandex.Metrika -->
+<SCRIPT type=text/javascript src="//mc.yandex.ru/resource/watch.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+try { var yaCounter184038 = new Ya.Metrika(184038); } catch(e){}
+</SCRIPT>
+<NOSCRIPT></NOSCRIPT><!-- Yandex.Metrika -->

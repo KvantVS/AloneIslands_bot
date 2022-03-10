@@ -1,0 +1,124 @@
+<META Http-Equiv=Content-Type Content="text/html; charset=windows-1251">
+<META Http-Equiv=Cache-Control Content=No-Cache>
+<META Http-Equiv=Pragma Content=No-Cache>
+<META Http-Equiv=Expires Content=0>
+<center class=return_win>
+<META HTTP-EQUIV="Page-Enter" CONTENT="BlendTrans(Duration=0.1)"></font></center><script type="text/javascript" src="js/newup.js?z123"></script><script>var images='images';show_head('1','','onclick=\"top.goloc(\'\',\'58bd746e80d9ae014f283573a66b2a3e\')\"',0,1,3);</script><!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="ie.css" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link rel="stylesheet" type="text/css" href="ie6.css" />
+<![endif]--><script type="text/javascript" src="js/inv.js"></script>
+
+<div id=inf_from_php style='visibility:hidden;position:absolute;top:0px;height:0;'>
+
+<center class=timef width=100%>
+
+Масса вещей: [852/260] из 95 ваших вещей. <font class=hp>Вы перегружены!</font>
+<br>
+
+<font class=items>
+
+<a href=main.php?snall=all class=timef>Снять всё</a> | 
+
+<a href=main.php?inv=weapons class=timef>Вещи</a> | 
+
+<a href=main.php?inv=presents class=timef>Подарки</a> | 
+
+<a href=main.php?inv=cat3 class=timef>Комплекты</a> | 
+
+<a href=main.php?inv=cat4 class=timef>Сборка предметов</a>
+
+
+ <br> <a href=main.php?filter_f5=price class=timef>Сортировать по цене</a> | <a href=main.php?filter_f5=level class=timef>Сортировать по уровню</a> 
+
+<script>
+
+function ssubm()
+
+{
+
+	document.sort.submit();
+
+}
+
+</script>
+
+<form name=sort method=get> 
+
+<select size="1" name="filter_f6" class="items" onchange="ssubm()">
+
+<option selected value=1>
+
+Группировать</option>
+
+<option  value=2>
+
+Не группировать</option>
+
+</select> <select size="1" name="filter_f4" class="items" onchange="ssubm()">
+
+<option  value="all">Все</option>
+
+<option  value="shlem">Шлемы</option>
+
+<option  value="ojerelie">Кулоны</option>
+
+<option selected value="orujie">Оружия</option>
+
+<option  value="poyas">Пояса</option>
+
+<option  value="zelie">Зелья/камни</option>
+
+<option  value="sapogi">Сапоги</option>
+
+<option  value="naruchi">Наручи</option>
+
+<option  value="perchatki">Перчатки</option>
+
+<option  value="kolco">Кольца</option>
+
+<option  value="bronya">Брони</option>
+
+<option  value="napad">Свитки нападения</option>
+
+<option  value="zakl">Свитки заклинания</option>
+
+<option  value="kam">Зелья восстановления</option>
+
+<option  value="potion">Зелья алхимические</option>
+
+<option  value="herbal">Растения</option>
+
+<option  value="fishing">Рыболовные снасти</option>
+
+<option  value="fish">Рыба</option>
+
+<option  value="resources">Ресурсы</option>
+
+<option  value="rune">Руны</option>
+
+<option  value="teleport">Телепорт</option>
+
+</select></form>
+</center>
+
+<center><table border=2 width=98% cellspacing=2 cellpadding=2 bordercolorlight=#C0C0C0 bordercolordark=#FFFFFF><tr><td align=left class=weapons_box><script>
+show_w ('Меч кровопролития','1','176_352','90','90','<font class=user><img src=images/money.gif> <b>116LN</font></b><font class=items><br>',116,'0','0','<table class=LinedTable style="border-width:0px; font-size:10px;width:100%" cellspacing=0><tr><td>Сила</td><td><b>+1 </b></td></tr><tr><td>Реакция</td><td><b>+4 </b></td></tr><tr><td>Сокрушение</td><td><b>+7 %</b></td></tr><tr><td>Уловка</td><td><b>+9 %</b></td></tr><tr><td>Точность</td><td><b>+9 %</b></td></tr><tr><td>Ярость</td><td><b>+7 %</b></td></tr><tr><td>Удар</td><td><b>17-23</b></td></tr></table>','<hr>Ранк: 14.46','','','',0,0,0,0,''
+,'0','14','','<font class=timef>Масса:<b>14</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 9</font></center><table class=LinedTable style="border-width:0px; font-size:10px;width:100%" cellspacing=0><tr><td>Сила</td><td class=green><b>20 </b></td></tr><tr><td>Реакция</td><td class=green><b>36 </b></td></tr><tr><td>Удача</td><td class=green><b>11 </b></td></tr><tr><td>Здоровье</td><td class=green><b>25 </b></td></tr><tr><td>Холодное оружие</td><td class=green><b>9 </b></td></tr></table>');</script><table border=0 width=100%><tr><td><td><img title='Надеть' src=images/icons/upload.png onclick="location='main.php?wear=5803749'" style='cursor:pointer'></td><td><input type=button class=inv_but value=Передать onclick="peredat('5803749','Меч кровопролития')"></td><td><input type=button class=inv_but value='Продать' onclick="sellingform('5803749','Меч кровопролития')" ></td><td><input type=button class=inv_but value='Сдать клану' onclick="confc('main.php?to_clan=5803749')" title='Сдать клану'></td></td><td align=right width=50%><img src=images/icons/delete.png onclick="conf('main.php?drop=5803749')" title='Выкинуть' style='cursor:pointer'></td></td></tr></table></td></tr><tr><td align=left class=weapons_box><script>
+show_w ('Бамбуковая удочка новичка','1','fishing_noob','27','50','<font class=user><img src=images/money.gif> <b>20LN</font></b><font class=items><br>',20,'0','0','<table class=LinedTable style="border-width:0px; font-size:10px;width:100%" cellspacing=0><tr><td>Рыбак</td><td><b>+15 </b></td></tr></table>','Позволяет ловить рыбу','','','',0,0,0,0,''
+,'0','5','','<font class=timef>Масса:<b>5</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 5</font></center><table class=LinedTable style="border-width:0px; font-size:10px;width:100%" cellspacing=0><tr><td>Интеллект</td><td class=green><b>1 </b></td></tr><tr><td>Рыбак</td><td class=green><b>20 </b></td></tr></table>');</script><table border=0 width=100%><tr><td><td><img title='Надеть' src=images/icons/upload.png onclick="location='main.php?wear=6134611'" style='cursor:pointer'></td><td><input type=button class=inv_but value=Передать onclick="peredat('6134611','Бамбуковая удочка новичка')"></td><td><input type=button class=inv_but value='Продать' onclick="sellingform('6134611','Бамбуковая удочка новичка')" ></td><td><input type=button class=inv_but value='Сдать клану' onclick="confc('main.php?to_clan=6134611')" title='Сдать клану'></td></td><td align=right width=50%><img src=images/icons/delete.png onclick="conf('main.php?drop=6134611')" title='Выкинуть' style='cursor:pointer'></td></td></tr></table></td></tr><tr><td align=left class=weapons_box><script>
+show_w ('Бамбуковая удочка новичка','1','fishing_noob','50','50','<font class=user><img src=images/money.gif> <b>20LN</font></b><font class=items><br>',20,'0','0','<table class=LinedTable style="border-width:0px; font-size:10px;width:100%" cellspacing=0><tr><td>Рыбак</td><td><b>+15 </b></td></tr></table>','Позволяет ловить рыбу','','','',0,0,0,0,''
+,'0','5','','<font class=timef>Масса:<b>5</b></font><hr><center class=but><b>Уровень</b>:<font class=green> 5</font></center><table class=LinedTable style="border-width:0px; font-size:10px;width:100%" cellspacing=0><tr><td>Интеллект</td><td class=green><b>1 </b></td></tr><tr><td>Рыбак</td><td class=green><b>20 </b></td></tr></table>');</script><table border=0 width=100%><tr><td><td><img title='Надеть' src=images/icons/upload.png onclick="location='main.php?wear=6134612'" style='cursor:pointer'></td><td><input type=button class=inv_but value=Передать onclick="peredat('6134612','Бамбуковая удочка новичка')"></td><td><input type=button class=inv_but value='Продать' onclick="sellingform('6134612','Бамбуковая удочка новичка')" ></td><td><input type=button class=inv_but value='Сдать клану' onclick="confc('main.php?to_clan=6134612')" title='Сдать клану'></td></td><td align=right width=50%><img src=images/icons/delete.png onclick="conf('main.php?drop=6134612')" title='Выкинуть' style='cursor:pointer'></td></td></tr></table></td></tr></table></center>
+</font>
+
+</div>
+
+
+
+
+
+<script>var DecreaseDamage = 46;build_pers('12_24','6085106|<b><i>Шлем&nbsp;рассуждения</b></i>@<b>138 LN</b>@Класс брони: <B>+4</B>@Жизнь: <B>+10</B>@Долговечность:&nbsp;<B>100/100</B>@','w_kyl_1','6085505|<b><i>Всевидящий&nbsp;амулет</b></i>@<b>128 LN</b>@Долговечность:&nbsp;<B>90/90</B>@','218_436','5791935|<b><i>Нож&nbsp;достоинства</b></i>@<b>99 LN</b>@Жизнь: <B>+20</B>@Удар: <B>10-15</B>@Долговечность:&nbsp;<B>90/90</B>@','w_poy_7','6084772|<b><i>Золотой&nbsp;пояс</b></i>@<b>133 LN</b>@Класс брони: <B>+4</B>@Жизнь: <B>+15</B>@Долговечность:&nbsp;<B>90/90</B>@','slots/pob5','0','slots/pob6','0','slots/pob7','0','sapogigdkd','5919629|<b><i>Сапоги&nbsp;обезумевшего&nbsp;бойца</b></i>@<b>105 LN</b>@Класс брони: <B>+4</B>@Долговечность:&nbsp;<B>100/100</B>@','394_788','6084745|<b><i>Наручи&nbsp;пронзительного&nbsp;удара</b></i>@<b>118 LN</b>@Класс брони: <B>+3</B>@Удар: <B>1-3</B>@Долговечность:&nbsp;<B>100/100</B>@','343_686','6084785|<b><i>Перчатки&nbsp;неуловимого&nbsp;вора</b></i>@<b>121 LN</b>@Класс брони: <B>+4</B>@Долговечность:&nbsp;<B>90/90</B>@','slots/pob11','0','231_462','5922478|<b><i>Причудливое&nbsp;кольцо</b></i>@<b>98 LN</b>@Долговечность:&nbsp;<B>90/90</B>@','231_462','5922477|<b><i>Причудливое&nbsp;кольцо</b></i>@<b>98 LN</b>@Долговечность:&nbsp;<B>90/90</B>@','113_226','6085487|<b><i>Броня&nbsp;растворимости</b></i>@<b>106 LN</b>@Класс брони: <B>+7</B>@Жизнь: <B>+25</B>@Долговечность:&nbsp;<B>80/80</B>@','male_10',0,'c18','Kvant','14','195','195','9','9',0,'hp_5000','hp_5000','slots/pob17','slots/pob18','6132087|<b><i>Фляга&nbsp;восстановления&nbsp;100&nbsp;HP</b></i>@<b>37 LN</b>@Долговечность:&nbsp;<B>2/3</B>@','6132382|<b><i>Фляга&nbsp;восстановления&nbsp;100&nbsp;HP</b></i>@<b>37 LN</b>@Долговечность:&nbsp;<B>2/3</B>@','0','0',195,195,9,9,700,2000,25,41,14,25,1,1,38,303.89,2.00,50,20,82,77,-17,18,12,19,69.42,'Граф',589,121,998822,8705,492473,8,1,'0',100,'+11','+20','+5','0','0','0');
+</script>
+
+<script>view_auras('');</script><SCRIPT SRC='js/c.js'></SCRIPT><SCRIPT SRC='js/tools/selectbox.js?3'></SCRIPT><SCRIPT SRC='js/end.js?3'></SCRIPT>

@@ -1,0 +1,4 @@
+открывать в Explorer`е
+
+mk:@MSITStore:C:\Distrib\Ѕиблиотека\ омпьютер\языки%20программировани€\ƒ≈Ћ№‘»Ќ\DelphiKingsDoom.chm::/helloword/cgi01.htm
+ms-help://embarcadero.rs2009/devcommon/expressions_xml.html
